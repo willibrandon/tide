@@ -1,27 +1,24 @@
 import { readFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
-import ts from 'typescript';
+import { parseExpression } from '@babel/parser';
+import { walkSyntax } from './source.mjs';
 export const root = fileURLToPath(new URL('../../', import.meta.url));
 export function parseJsonStrict(text, path = 'JSON') {
   const value = JSON.parse(text);
-  const source = ts.parseJsonText(path, text);
-  function visit(node) {
-    if (ts.isObjectLiteralExpression(node)) {
+  const source = parseExpression(text, { sourceFilename: path });
+  walkSyntax(source, (node) => {
+    if (node.type === 'ObjectExpression') {
       const keys = new Set();
       for (const property of node.properties) {
-        const key = property.name.text;
+        const key = property.key.value;
         if (keys.has(key)) {
-          const { line, character } = source.getLineAndCharacterOfPosition(
-            property.getStart(source),
-          );
-          throw new Error(`${path}:${line + 1}:${character + 1}: duplicate JSON key ${key}`);
+          const { line, column } = property.loc.start;
+          throw new Error(`${path}:${line}:${column + 1}: duplicate JSON key ${key}`);
         }
         keys.add(key);
       }
     }
-    ts.forEachChild(node, visit);
-  }
-  visit(source);
+  });
   return value;
 }
 export const readJson = (path) =>

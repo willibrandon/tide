@@ -2,7 +2,7 @@
 import { execFileSync } from 'node:child_process';
 import { mkdirSync, writeFileSync } from 'node:fs';
 import { resolve } from 'node:path';
-import ts from 'typescript';
+import { extractColorRegistrations } from './lib/source.mjs';
 import { root, json } from './lib/project.mjs';
 
 const checkout = process.argv[2];
@@ -19,26 +19,7 @@ const files = git(['grep', '-l', 'registerColor(', commit, '--', 'src'])
   .filter((path) => !path.includes('/test/'));
 const colors = {};
 for (const path of files) {
-  const source = ts.createSourceFile(
-    path,
-    git(['show', `${commit}:${path}`]),
-    ts.ScriptTarget.Latest,
-    true,
-  );
-  function visit(node) {
-    if (ts.isCallExpression(node) && node.expression.getText(source).endsWith('registerColor')) {
-      const [id, , description, transparency] = node.arguments;
-      if (id && ts.isStringLiteralLike(id)) {
-        colors[id.text] = {
-          source: path,
-          description: description?.getText(source) ?? '',
-          requiresTransparency: transparency?.kind === ts.SyntaxKind.TrueKeyword,
-        };
-      }
-    }
-    ts.forEachChild(node, visit);
-  }
-  visit(source);
+  Object.assign(colors, extractColorRegistrations(git(['show', `${commit}:${path}`]), path));
 }
 // Built-in extensions (notably Git) contribute colors through their manifests.
 for (const entry of git(['grep', '-l', '"colors"', commit, '--', 'extensions/*/package.json'])
