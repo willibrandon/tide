@@ -1,0 +1,3880 @@
+{
+  "pairs": [
+    {
+      "foreground": "editorLineNumber.foreground",
+      "backgrounds": ["diffEditorGutter.insertedLineBackground", "editor.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "editorLineNumber.foreground",
+      "backgrounds": ["diffEditorGutter.removedLineBackground", "editor.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "editor.foreground",
+      "backgrounds": ["diffEditorGutter.insertedLineBackground", "editor.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "editor.foreground",
+      "backgrounds": ["diffEditorGutter.removedLineBackground", "editor.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "diffEditor.insertedTextBorder",
+      "backgrounds": ["diffEditor.insertedLineBackground", "editor.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "diffEditor.removedTextBorder",
+      "backgrounds": ["diffEditor.removedLineBackground", "editor.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "editorGutter.addedBackground",
+      "backgrounds": ["editor.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "editorGutter.deletedBackground",
+      "backgrounds": ["editor.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "foreground",
+      "backgrounds": ["editor.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "descriptionForeground",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "descriptionForeground",
+      "backgrounds": ["editorWidget.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "disabledForeground",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "errorForeground",
+      "backgrounds": ["editor.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "icon.foreground",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "textLink.foreground",
+      "backgrounds": ["editor.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "textLink.activeForeground",
+      "backgrounds": ["editor.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "textPreformat.foreground",
+      "backgrounds": ["textPreformat.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "button.foreground",
+      "backgrounds": ["button.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "button.foreground",
+      "backgrounds": ["button.hoverBackground"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "button.secondaryForeground",
+      "backgrounds": ["button.secondaryBackground"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "button.secondaryForeground",
+      "backgrounds": ["button.secondaryHoverBackground"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "dropdown.foreground",
+      "backgrounds": ["dropdown.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "input.foreground",
+      "backgrounds": ["input.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "input.placeholderForeground",
+      "backgrounds": ["input.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "inputOption.activeForeground",
+      "backgrounds": ["inputOption.activeBackground", "input.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "badge.foreground",
+      "backgrounds": ["badge.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "activityBarBadge.foreground",
+      "backgrounds": ["activityBarBadge.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "list.activeSelectionForeground",
+      "backgrounds": ["list.activeSelectionBackground", "sideBar.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "list.inactiveSelectionForeground",
+      "backgrounds": ["list.inactiveSelectionBackground", "sideBar.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "list.hoverForeground",
+      "backgrounds": ["list.hoverBackground", "sideBar.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "list.focusForeground",
+      "backgrounds": ["list.focusBackground", "sideBar.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "list.errorForeground",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "list.highlightForeground",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "list.invalidItemForeground",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "list.warningForeground",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "activityBar.foreground",
+      "backgrounds": ["activityBar.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "activityBar.foreground",
+      "backgrounds": ["activityBar.activeBackground"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "activityBar.inactiveForeground",
+      "backgrounds": ["activityBar.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "activityBarTop.foreground",
+      "backgrounds": ["activityBar.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "activityBarTop.inactiveForeground",
+      "backgrounds": ["activityBar.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "sideBar.foreground",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "sideBarTitle.foreground",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "sideBarSectionHeader.foreground",
+      "backgrounds": ["sideBarSectionHeader.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "tab.activeForeground",
+      "backgrounds": ["tab.activeBackground"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "tab.inactiveForeground",
+      "backgrounds": ["tab.inactiveBackground"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "tab.hoverForeground",
+      "backgrounds": ["tab.hoverBackground"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "tab.unfocusedActiveForeground",
+      "backgrounds": ["tab.activeBackground"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "tab.unfocusedInactiveForeground",
+      "backgrounds": ["tab.inactiveBackground"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "editor.foreground",
+      "backgrounds": ["editor.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "editor.selectionForeground",
+      "backgrounds": ["editor.selectionBackground", "editor.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "editorLineNumber.foreground",
+      "backgrounds": ["editor.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "editorLineNumber.activeForeground",
+      "backgrounds": ["editor.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "editorCodeLens.foreground",
+      "backgrounds": ["editor.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "editorLink.activeForeground",
+      "backgrounds": ["editor.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "editorBracketHighlight.foreground1",
+      "backgrounds": ["editor.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "editorBracketHighlight.foreground2",
+      "backgrounds": ["editor.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "editorBracketHighlight.foreground3",
+      "backgrounds": ["editor.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "editorBracketHighlight.foreground4",
+      "backgrounds": ["editor.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "editorBracketHighlight.foreground5",
+      "backgrounds": ["editor.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "editorBracketHighlight.foreground6",
+      "backgrounds": ["editor.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "editorBracketHighlight.unexpectedBracket.foreground",
+      "backgrounds": ["editor.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "editorWidget.foreground",
+      "backgrounds": ["editorWidget.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "editorSuggestWidget.foreground",
+      "backgrounds": ["editorSuggestWidget.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "editorSuggestWidget.highlightForeground",
+      "backgrounds": ["editorSuggestWidget.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "editorSuggestWidget.focusHighlightForeground",
+      "backgrounds": ["editorSuggestWidget.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "editorSuggestWidget.selectedForeground",
+      "backgrounds": ["editorSuggestWidget.selectedBackground"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "editorHoverWidget.foreground",
+      "backgrounds": ["editorHoverWidget.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "editorHoverWidget.highlightForeground",
+      "backgrounds": ["editorHoverWidget.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "peekViewResult.fileForeground",
+      "backgrounds": ["peekViewResult.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "peekViewResult.lineForeground",
+      "backgrounds": ["peekViewResult.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "peekViewResult.selectionForeground",
+      "backgrounds": ["peekViewResult.selectionBackground"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "peekViewTitleDescription.foreground",
+      "backgrounds": ["peekViewTitle.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "peekViewTitleLabel.foreground",
+      "backgrounds": ["peekViewTitle.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "panelTitle.activeForeground",
+      "backgrounds": ["panel.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "panelTitle.inactiveForeground",
+      "backgrounds": ["panel.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "statusBar.foreground",
+      "backgrounds": ["statusBar.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "statusBar.debuggingForeground",
+      "backgrounds": ["statusBar.debuggingBackground"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "statusBarItem.hoverForeground",
+      "backgrounds": ["statusBarItem.hoverBackground", "statusBar.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "statusBarItem.remoteForeground",
+      "backgrounds": ["statusBarItem.remoteBackground"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "statusBarItem.errorForeground",
+      "backgrounds": ["statusBarItem.errorBackground"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "statusBarItem.warningForeground",
+      "backgrounds": ["statusBarItem.warningBackground"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "titleBar.activeForeground",
+      "backgrounds": ["titleBar.activeBackground"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "titleBar.inactiveForeground",
+      "backgrounds": ["titleBar.inactiveBackground"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "menu.foreground",
+      "backgrounds": ["menu.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "menu.selectionForeground",
+      "backgrounds": ["menu.selectionBackground", "menu.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "menubar.selectionForeground",
+      "backgrounds": ["menubar.selectionBackground", "titleBar.activeBackground"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "notificationCenterHeader.foreground",
+      "backgrounds": ["notificationCenterHeader.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "notifications.foreground",
+      "backgrounds": ["notifications.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "notificationLink.foreground",
+      "backgrounds": ["notifications.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "quickInput.foreground",
+      "backgrounds": ["quickInput.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "pickerGroup.foreground",
+      "backgrounds": ["quickInput.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "keybindingLabel.foreground",
+      "backgrounds": ["keybindingLabel.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "terminal.foreground",
+      "backgrounds": ["terminal.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "terminal.selectionForeground",
+      "backgrounds": ["terminal.selectionBackground", "terminal.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "terminal.selectionForeground",
+      "backgrounds": ["terminal.inactiveSelectionBackground", "terminal.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "breadcrumb.foreground",
+      "backgrounds": ["breadcrumb.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "breadcrumb.focusForeground",
+      "backgrounds": ["breadcrumb.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "breadcrumb.activeSelectionForeground",
+      "backgrounds": ["breadcrumb.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "settings.headerForeground",
+      "backgrounds": ["editor.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "settings.dropdownForeground",
+      "backgrounds": ["settings.dropdownBackground"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "settings.textInputForeground",
+      "backgrounds": ["settings.textInputBackground"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "settings.numberInputForeground",
+      "backgrounds": ["settings.numberInputBackground"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "chat.slashCommandForeground",
+      "backgrounds": ["chat.slashCommandBackground"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "chat.avatarForeground",
+      "backgrounds": ["chat.avatarBackground"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "chat.editedFileForeground",
+      "backgrounds": ["chat.requestBackground"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "chat.editedFileForeground",
+      "backgrounds": ["chat.requestBubbleBackground", "editor.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "chat.linesAddedForeground",
+      "backgrounds": ["chat.requestBackground"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "chat.linesAddedForeground",
+      "backgrounds": ["chat.requestBubbleBackground", "editor.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "chat.linesRemovedForeground",
+      "backgrounds": ["chat.requestBackground"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "chat.linesRemovedForeground",
+      "backgrounds": ["chat.requestBubbleBackground", "editor.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "foreground",
+      "backgrounds": ["chat.requestBackground"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "foreground",
+      "backgrounds": ["chat.requestBubbleBackground", "editor.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "agentsPanel.foreground",
+      "backgrounds": ["agentsPanel.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "agentsChatInput.foreground",
+      "backgrounds": ["agentsChatInput.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "agentsChatInput.placeholderForeground",
+      "backgrounds": ["agentsChatInput.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "agentsNewSessionButton.foreground",
+      "backgrounds": ["agentsNewSessionButton.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "agentsNewSessionButton.foreground",
+      "backgrounds": ["agentsNewSessionButton.hoverBackground"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "agentsBadge.foreground",
+      "backgrounds": ["agentsBadge.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "agentsUnreadBadge.foreground",
+      "backgrounds": ["agentsUnreadBadge.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "inlineChat.foreground",
+      "backgrounds": ["inlineChat.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "inlineChatInput.placeholderForeground",
+      "backgrounds": ["inlineChatInput.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "editorGhostText.foreground",
+      "backgrounds": ["editorGhostText.background", "editor.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "editorInlayHint.foreground",
+      "backgrounds": ["editorInlayHint.background", "editor.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "editorInlayHint.parameterForeground",
+      "backgrounds": ["editorInlayHint.parameterBackground", "editor.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "editorInlayHint.typeForeground",
+      "backgrounds": ["editorInlayHint.typeBackground", "editor.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "tab.selectedForeground",
+      "backgrounds": ["tab.selectedBackground"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "tab.unfocusedHoverForeground",
+      "backgrounds": ["tab.hoverBackground"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "scmGraph.historyItemHoverLabelForeground",
+      "backgrounds": ["list.hoverBackground", "sideBar.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "scmGraph.historyItemHoverDefaultLabelForeground",
+      "backgrounds": ["scmGraph.historyItemHoverDefaultLabelBackground"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "scmGraph.historyItemHoverAdditionsForeground",
+      "backgrounds": ["scmGraph.historyItemHoverDefaultLabelBackground"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "scmGraph.historyItemHoverDeletionsForeground",
+      "backgrounds": ["scmGraph.historyItemHoverDefaultLabelBackground"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "git.blame.editorDecorationForeground",
+      "backgrounds": ["editor.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "gitDecoration.stageModifiedResourceForeground",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "gitDecoration.stageDeletedResourceForeground",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "testing.message.error.badgeForeground",
+      "backgrounds": ["testing.message.error.badgeBackground"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "testing.coverCountBadgeForeground",
+      "backgrounds": ["testing.coverCountBadgeBackground"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "debugView.stateLabelForeground",
+      "backgrounds": ["debugView.stateLabelBackground", "sideBar.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "debugView.exceptionLabelForeground",
+      "backgrounds": ["debugView.exceptionLabelBackground", "sideBar.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "debugConsole.infoForeground",
+      "backgrounds": ["panel.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "debugConsole.warningForeground",
+      "backgrounds": ["panel.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "debugConsole.errorForeground",
+      "backgrounds": ["panel.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "debugConsole.sourceForeground",
+      "backgrounds": ["panel.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "terminal.initialHintForeground",
+      "backgrounds": ["terminal.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "terminalSymbolIcon.symbolText",
+      "backgrounds": ["editorSuggestWidget.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "commandCenter.foreground",
+      "backgrounds": ["commandCenter.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "commandCenter.activeForeground",
+      "backgrounds": ["commandCenter.activeBackground"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "commandCenter.inactiveForeground",
+      "backgrounds": ["commandCenter.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "banner.foreground",
+      "backgrounds": ["banner.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "charts.foreground",
+      "backgrounds": ["editorWidget.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "profileBadge.foreground",
+      "backgrounds": ["profileBadge.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "extensionBadge.remoteForeground",
+      "backgrounds": ["extensionBadge.remoteBackground"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "extensionButton.foreground",
+      "backgrounds": ["extensionButton.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "extensionButton.foreground",
+      "backgrounds": ["extensionButton.hoverBackground"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "extensionButton.prominentForeground",
+      "backgrounds": ["extensionButton.prominentBackground"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "extensionButton.prominentForeground",
+      "backgrounds": ["extensionButton.prominentHoverBackground"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "surface.foreground",
+      "backgrounds": ["surface.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "quickInputList.focusForeground",
+      "backgrounds": ["quickInputList.focusBackground"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "quickInputList.focusHighlightForeground",
+      "backgrounds": ["quickInputList.focusBackground"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "editorActionList.foreground",
+      "backgrounds": ["editorActionList.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "editorActionList.focusForeground",
+      "backgrounds": ["editorActionList.focusBackground"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "settings.settingsHeaderHoverForeground",
+      "backgrounds": ["editor.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "inputValidation.errorForeground",
+      "backgrounds": ["inputValidation.errorBackground"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "inputValidation.infoForeground",
+      "backgrounds": ["inputValidation.infoBackground"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "inputValidation.warningForeground",
+      "backgrounds": ["inputValidation.warningBackground"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "markdownAlert.note.foreground",
+      "backgrounds": ["editor.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "markdownAlert.tip.foreground",
+      "backgrounds": ["editor.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "markdownAlert.important.foreground",
+      "backgrounds": ["editor.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "markdownAlert.warning.foreground",
+      "backgrounds": ["editor.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "markdownAlert.caution.foreground",
+      "backgrounds": ["editor.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "walkthrough.stepTitle.foreground",
+      "backgrounds": ["editor.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "strongForeground",
+      "backgrounds": ["editor.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "activeSessionView.foreground",
+      "backgrounds": ["activeSessionView.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "inactiveSessionView.foreground",
+      "backgrounds": ["inactiveSessionView.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "editorActiveLineNumber.foreground",
+      "backgrounds": ["editor.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "diffEditor.unchangedRegionForeground",
+      "backgrounds": ["diffEditor.unchangedRegionBackground"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "editor.findMatchForeground",
+      "backgrounds": ["editor.findMatchBackground", "editor.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "editor.findMatchHighlightForeground",
+      "backgrounds": ["editor.findMatchHighlightBackground", "editor.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "editor.foldPlaceholderForeground",
+      "backgrounds": ["editor.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "editor.placeholder.foreground",
+      "backgrounds": ["editor.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "editorBracketMatch.foreground",
+      "backgrounds": ["editorBracketMatch.background", "editor.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "editorLineNumber.dimmedForeground",
+      "backgrounds": ["editor.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "search.resultsInfoForeground",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "statusBar.noFolderForeground",
+      "backgrounds": ["statusBar.noFolderBackground"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "statusBarItem.errorHoverForeground",
+      "backgrounds": ["statusBarItem.errorHoverBackground"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "statusBarItem.offlineForeground",
+      "backgrounds": ["statusBarItem.offlineBackground"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "statusBarItem.offlineHoverForeground",
+      "backgrounds": ["statusBarItem.offlineHoverBackground"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "statusBarItem.prominentForeground",
+      "backgrounds": ["statusBarItem.prominentBackground"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "statusBarItem.prominentHoverForeground",
+      "backgrounds": ["statusBarItem.prominentHoverBackground"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "statusBarItem.remoteHoverForeground",
+      "backgrounds": ["statusBarItem.remoteHoverBackground"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "statusBarItem.warningHoverForeground",
+      "backgrounds": ["statusBarItem.warningHoverBackground"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "list.deemphasizedForeground",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "list.focusHighlightForeground",
+      "backgrounds": ["list.focusBackground", "sideBar.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "panelSectionHeader.foreground",
+      "backgrounds": ["panelSectionHeader.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "panelTitleBadge.foreground",
+      "backgrounds": ["panelTitleBadge.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "activityErrorBadge.foreground",
+      "backgrounds": ["activityErrorBadge.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "activityWarningBadge.foreground",
+      "backgrounds": ["activityWarningBadge.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "editorSuggestWidgetStatus.foreground",
+      "backgrounds": ["editorSuggestWidget.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "editorGroup.dropIntoPromptForeground",
+      "backgrounds": ["editorGroup.dropIntoPromptBackground"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "editor.foreground",
+      "backgrounds": ["editorStickyScroll.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "panelTitle.activeForeground",
+      "backgrounds": ["panelStickyScroll.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "activityBarTop.foreground",
+      "backgrounds": ["activityBarTop.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "editorWidget.foreground",
+      "backgrounds": ["editorMarkerNavigationError.headerBackground", "editorWidget.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "editorWidget.foreground",
+      "backgrounds": ["editorMarkerNavigationInfo.headerBackground", "editorWidget.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "editorWidget.foreground",
+      "backgrounds": ["editorMarkerNavigationWarning.headerBackground", "editorWidget.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "checkbox.foreground",
+      "backgrounds": ["checkbox.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "list.activeSelectionIconForeground",
+      "backgrounds": ["list.activeSelectionBackground", "sideBar.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "editorCursor.foreground",
+      "backgrounds": ["editor.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "terminalCursor.foreground",
+      "backgrounds": ["terminal.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "editorError.foreground",
+      "backgrounds": ["editor.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "editorWarning.foreground",
+      "backgrounds": ["editor.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "editorInfo.foreground",
+      "backgrounds": ["editor.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "editorHint.foreground",
+      "backgrounds": ["editor.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "editorLightBulb.foreground",
+      "backgrounds": ["editor.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "editorLightBulbAutoFix.foreground",
+      "backgrounds": ["editor.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "editorOverviewRuler.findMatchForeground",
+      "backgrounds": ["editor.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "editorOverviewRuler.rangeHighlightForeground",
+      "backgrounds": ["editor.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "debugIcon.breakpointForeground",
+      "backgrounds": ["editor.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "debugIcon.breakpointDisabledForeground",
+      "backgrounds": ["editor.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "debugIcon.startForeground",
+      "backgrounds": ["debugToolBar.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "debugIcon.pauseForeground",
+      "backgrounds": ["debugToolBar.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "debugIcon.stopForeground",
+      "backgrounds": ["debugToolBar.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "debugIcon.disconnectForeground",
+      "backgrounds": ["debugToolBar.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "debugIcon.restartForeground",
+      "backgrounds": ["debugToolBar.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "debugIcon.stepOverForeground",
+      "backgrounds": ["debugToolBar.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "debugIcon.stepIntoForeground",
+      "backgrounds": ["debugToolBar.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "debugIcon.stepOutForeground",
+      "backgrounds": ["debugToolBar.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "debugIcon.continueForeground",
+      "backgrounds": ["debugToolBar.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "debugIcon.stepBackForeground",
+      "backgrounds": ["debugToolBar.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "notebookStatusSuccessIcon.foreground",
+      "backgrounds": ["notebook.editorBackground"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "notebookStatusErrorIcon.foreground",
+      "backgrounds": ["notebook.editorBackground"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "notebookStatusRunningIcon.foreground",
+      "backgrounds": ["notebook.editorBackground"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "settings.checkboxForeground",
+      "backgrounds": ["settings.checkboxBackground"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "welcomePage.progress.foreground",
+      "backgrounds": ["welcomePage.progress.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "focusBorder",
+      "backgrounds": ["editor.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "activityBar.activeBorder",
+      "backgrounds": ["activityBar.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "tab.activeBorderTop",
+      "backgrounds": ["tab.activeBackground"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "panelTitle.activeBorder",
+      "backgrounds": ["panel.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "editor.findMatchBorder",
+      "backgrounds": ["editor.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "editor.findMatchHighlightBorder",
+      "backgrounds": ["editor.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "peekViewEditor.matchHighlightBorder",
+      "backgrounds": ["peekViewEditor.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "agentSessionReadIndicator.foreground",
+      "backgrounds": ["agentsPanel.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "inlineEdit.gutterIndicator.primaryForeground",
+      "backgrounds": ["inlineEdit.gutterIndicator.primaryBackground"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "inlineEdit.gutterIndicator.secondaryForeground",
+      "backgrounds": ["inlineEdit.gutterIndicator.secondaryBackground"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "inlineEdit.gutterIndicator.successfulForeground",
+      "backgrounds": ["inlineEdit.gutterIndicator.successfulBackground"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "editorLightBulbAi.foreground",
+      "backgrounds": ["editor.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "editorGutter.commentGlyphForeground",
+      "backgrounds": ["editor.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "editorGutter.commentUnresolvedGlyphForeground",
+      "backgrounds": ["editor.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "editorGutter.commentDraftGlyphForeground",
+      "backgrounds": ["editor.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "editorOverviewRuler.commentForeground",
+      "backgrounds": ["editor.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "editorOverviewRuler.commentUnresolvedForeground",
+      "backgrounds": ["editor.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "editorOverviewRuler.commentDraftForeground",
+      "backgrounds": ["editor.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "testing.message.info.decorationForeground",
+      "backgrounds": ["editor.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "debugConsoleInputIcon.foreground",
+      "backgrounds": ["panel.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "debugIcon.breakpointUnverifiedForeground",
+      "backgrounds": ["editor.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "debugIcon.breakpointCurrentStackframeForeground",
+      "backgrounds": ["editor.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "debugIcon.breakpointStackframeForeground",
+      "backgrounds": ["editor.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "notebookEditorOverviewRuler.runningCellForeground",
+      "backgrounds": ["notebook.editorBackground"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "terminalCommandGuide.foreground",
+      "backgrounds": ["terminal.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "terminalOverviewRuler.cursorForeground",
+      "backgrounds": ["terminal.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "terminalOverviewRuler.findMatchForeground",
+      "backgrounds": ["terminal.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "notificationsErrorIcon.foreground",
+      "backgrounds": ["notifications.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "notificationsWarningIcon.foreground",
+      "backgrounds": ["notifications.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "notificationsInfoIcon.foreground",
+      "backgrounds": ["notifications.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "banner.iconForeground",
+      "backgrounds": ["banner.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "ports.iconRunningProcessForeground",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "quickInputList.focusIconForeground",
+      "backgrounds": ["quickInputList.focusBackground"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "editorOverviewRuler.currentContentForeground",
+      "backgrounds": ["editor.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "editorOverviewRuler.incomingContentForeground",
+      "backgrounds": ["editor.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "editorOverviewRuler.commonContentForeground",
+      "backgrounds": ["editor.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "diffEditorOverview.insertedForeground",
+      "backgrounds": ["editor.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "diffEditorOverview.removedForeground",
+      "backgrounds": ["editor.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "editor.inlineValuesForeground",
+      "backgrounds": ["editor.inlineValuesBackground", "editor.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "agentsChatInput.focusBorder",
+      "backgrounds": ["agentsChatInput.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "agentSessionSelectedBadge.border",
+      "backgrounds": ["agentsPanel.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "agentSessionSelectedUnfocusedBadge.border",
+      "backgrounds": ["agentsPanel.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "agentsNewSessionButton.background",
+      "backgrounds": ["agentsPanel.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "agentsNewSessionButton.hoverBackground",
+      "backgrounds": ["agentsPanel.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "agentsBadge.background",
+      "backgrounds": ["agentsPanel.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "agentsUnreadBadge.background",
+      "backgrounds": ["agentsPanel.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "chat.avatarBackground",
+      "backgrounds": ["chat.requestBackground"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "chat.thinkingShimmer",
+      "backgrounds": ["chat.requestBackground"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "chat.inputWorkingBorderColor1",
+      "backgrounds": ["input.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "chat.inputWorkingBorderColor2",
+      "backgrounds": ["input.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "chat.inputWorkingBorderColor3",
+      "backgrounds": ["input.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "chat.inputWorkingBorderColor1",
+      "backgrounds": ["agentsChatInput.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "chat.inputWorkingBorderColor2",
+      "backgrounds": ["agentsChatInput.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "chat.inputWorkingBorderColor3",
+      "backgrounds": ["agentsChatInput.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "inlineChatInput.focusBorder",
+      "backgrounds": ["inlineChatInput.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "inlineEdit.gutterIndicator.primaryBorder",
+      "backgrounds": ["inlineEdit.gutterIndicator.primaryBackground"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "inlineEdit.gutterIndicator.secondaryBorder",
+      "backgrounds": ["inlineEdit.gutterIndicator.secondaryBackground"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "inlineEdit.gutterIndicator.successfulBorder",
+      "backgrounds": ["inlineEdit.gutterIndicator.successfulBackground"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "inlineEdit.modifiedBorder",
+      "backgrounds": ["editor.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "inlineEdit.originalBorder",
+      "backgrounds": ["editor.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "inlineEdit.tabWillAcceptModifiedBorder",
+      "backgrounds": ["editor.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "inlineEdit.tabWillAcceptOriginalBorder",
+      "backgrounds": ["editor.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "editorCommentsWidget.resolvedBorder",
+      "backgrounds": ["editor.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "editorCommentsWidget.unresolvedBorder",
+      "backgrounds": ["editor.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "merge.border",
+      "backgrounds": ["editor.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "mergeEditor.conflict.unhandledFocused.border",
+      "backgrounds": ["editor.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "mergeEditor.conflict.unhandledUnfocused.border",
+      "backgrounds": ["editor.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "mergeEditor.conflict.handledFocused.border",
+      "backgrounds": ["editor.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "mergeEditor.conflict.handledUnfocused.border",
+      "backgrounds": ["editor.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "mergeEditor.conflict.unhandled.minimapOverViewRuler",
+      "backgrounds": ["editor.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "mergeEditor.conflict.handled.minimapOverViewRuler",
+      "backgrounds": ["editor.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "testing.message.error.badgeBorder",
+      "backgrounds": ["testing.message.error.badgeBackground"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "testing.peekBorder",
+      "backgrounds": ["editor.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "testing.messagePeekBorder",
+      "backgrounds": ["editor.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "testing.coveredBorder",
+      "backgrounds": ["editor.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "testing.coveredGutterBackground",
+      "backgrounds": ["editor.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "testing.uncoveredBorder",
+      "backgrounds": ["editor.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "testing.uncoveredGutterBackground",
+      "backgrounds": ["editor.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "testing.uncoveredBranchBackground",
+      "backgrounds": ["editor.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "debugExceptionWidget.border",
+      "backgrounds": ["debugExceptionWidget.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "notebook.cellInsertionIndicator",
+      "backgrounds": ["notebook.editorBackground"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "notebook.focusedCellBorder",
+      "backgrounds": ["notebook.editorBackground"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "notebook.focusedEditorBorder",
+      "backgrounds": ["notebook.cellEditorBackground"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "notebook.inactiveFocusedCellBorder",
+      "backgrounds": ["notebook.editorBackground"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "notebook.inactiveSelectedCellBorder",
+      "backgrounds": ["notebook.editorBackground"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "notebook.selectedCellBorder",
+      "backgrounds": ["notebook.editorBackground"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "terminalCommandDecoration.defaultBackground",
+      "backgrounds": ["terminal.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "terminalCommandDecoration.successBackground",
+      "backgrounds": ["terminal.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "terminalCommandDecoration.errorBackground",
+      "backgrounds": ["terminal.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "commandCenter.activeBorder",
+      "backgrounds": ["titleBar.activeBackground"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "notificationCenter.border",
+      "backgrounds": ["editor.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "notificationToast.border",
+      "backgrounds": ["editor.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "profiles.sashBorder",
+      "backgrounds": ["editor.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "profileBadge.background",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "extensionBadge.remoteBackground",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "extensionButton.background",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "extensionButton.hoverBackground",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "extensionButton.prominentBackground",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "extensionButton.prominentHoverBackground",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "editorGutter.foldingControlForeground",
+      "backgrounds": ["editor.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "editorGutter.itemGlyphForeground",
+      "backgrounds": ["editorGutter.itemBackground"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "editorMultiCursor.primary.foreground",
+      "backgrounds": ["editorMultiCursor.primary.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "editorMultiCursor.secondary.foreground",
+      "backgrounds": ["editorMultiCursor.secondary.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "editorOverviewRuler.addedForeground",
+      "backgrounds": ["editor.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "editorOverviewRuler.bracketMatchForeground",
+      "backgrounds": ["editor.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "editorOverviewRuler.deletedForeground",
+      "backgrounds": ["editor.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "editorOverviewRuler.errorForeground",
+      "backgrounds": ["editor.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "editorOverviewRuler.infoForeground",
+      "backgrounds": ["editor.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "editorOverviewRuler.modifiedForeground",
+      "backgrounds": ["editor.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "editorOverviewRuler.selectionHighlightForeground",
+      "backgrounds": ["editor.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "editorOverviewRuler.warningForeground",
+      "backgrounds": ["editor.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "editorOverviewRuler.wordHighlightForeground",
+      "backgrounds": ["editor.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "editorOverviewRuler.wordHighlightStrongForeground",
+      "backgrounds": ["editor.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "editorOverviewRuler.wordHighlightTextForeground",
+      "backgrounds": ["editor.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "problemsErrorIcon.foreground",
+      "backgrounds": ["panel.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "problemsInfoIcon.foreground",
+      "backgrounds": ["panel.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "problemsWarningIcon.foreground",
+      "backgrounds": ["panel.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "list.inactiveSelectionIconForeground",
+      "backgrounds": ["list.inactiveSelectionBackground", "sideBar.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "checkbox.disabled.foreground",
+      "backgrounds": ["checkbox.disabled.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "radio.activeForeground",
+      "backgrounds": ["radio.activeBackground"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "radio.inactiveForeground",
+      "backgrounds": ["radio.inactiveBackground"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "editorSuggestWidget.selectedIconForeground",
+      "backgrounds": ["editorSuggestWidget.selectedBackground"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "editor.compositionBorder",
+      "backgrounds": ["editor.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "editor.findRangeHighlightBorder",
+      "backgrounds": ["editor.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "editor.rangeHighlightBorder",
+      "backgrounds": ["editor.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "editor.selectionHighlightBorder",
+      "backgrounds": ["editor.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "editor.symbolHighlightBorder",
+      "backgrounds": ["editor.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "editor.wordHighlightBorder",
+      "backgrounds": ["editor.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "editor.wordHighlightStrongBorder",
+      "backgrounds": ["editor.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "editor.wordHighlightTextBorder",
+      "backgrounds": ["editor.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "editorBracketMatch.border",
+      "backgrounds": ["editor.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "editorGutter.addedSecondaryBackground",
+      "backgrounds": ["editor.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "editorGutter.deletedSecondaryBackground",
+      "backgrounds": ["editor.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "editorGutter.modifiedSecondaryBackground",
+      "backgrounds": ["editor.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "editorUnicodeHighlight.border",
+      "backgrounds": ["editor.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "searchEditor.findMatchBorder",
+      "backgrounds": ["editor.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "statusBarItem.focusBorder",
+      "backgrounds": ["statusBar.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "list.dropBetweenBackground",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "list.filterMatchBorder",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "list.focusAndSelectionOutline",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "list.focusOutline",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "list.inactiveFocusOutline",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "checkbox.selectBorder",
+      "backgrounds": ["checkbox.selectBackground"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "radio.activeBorder",
+      "backgrounds": ["radio.inactiveBackground"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "radio.inactiveBorder",
+      "backgrounds": ["radio.inactiveBackground"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "activityBar.activeFocusBorder",
+      "backgrounds": ["activityBar.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "activityBar.dropBorder",
+      "backgrounds": ["activityBar.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "activityBarTop.activeBorder",
+      "backgrounds": ["activityBarTop.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "activityBarTop.dropBorder",
+      "backgrounds": ["activityBarTop.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "editorGroup.dropIntoPromptBorder",
+      "backgrounds": ["editorGroup.dropIntoPromptBackground"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "editorGroup.focusedEmptyBorder",
+      "backgrounds": ["editorGroup.emptyBackground"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "symbolIcon.arrayForeground",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "symbolIcon.arrayForeground",
+      "backgrounds": ["quickInput.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "symbolIcon.booleanForeground",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "symbolIcon.booleanForeground",
+      "backgrounds": ["quickInput.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "symbolIcon.classForeground",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "symbolIcon.classForeground",
+      "backgrounds": ["quickInput.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "symbolIcon.colorForeground",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "symbolIcon.colorForeground",
+      "backgrounds": ["quickInput.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "symbolIcon.constantForeground",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "symbolIcon.constantForeground",
+      "backgrounds": ["quickInput.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "symbolIcon.constructorForeground",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "symbolIcon.constructorForeground",
+      "backgrounds": ["quickInput.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "symbolIcon.enumeratorForeground",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "symbolIcon.enumeratorForeground",
+      "backgrounds": ["quickInput.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "symbolIcon.enumeratorMemberForeground",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "symbolIcon.enumeratorMemberForeground",
+      "backgrounds": ["quickInput.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "symbolIcon.eventForeground",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "symbolIcon.eventForeground",
+      "backgrounds": ["quickInput.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "symbolIcon.fieldForeground",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "symbolIcon.fieldForeground",
+      "backgrounds": ["quickInput.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "symbolIcon.fileForeground",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "symbolIcon.fileForeground",
+      "backgrounds": ["quickInput.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "symbolIcon.folderForeground",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "symbolIcon.folderForeground",
+      "backgrounds": ["quickInput.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "symbolIcon.functionForeground",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "symbolIcon.functionForeground",
+      "backgrounds": ["quickInput.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "symbolIcon.interfaceForeground",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "symbolIcon.interfaceForeground",
+      "backgrounds": ["quickInput.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "symbolIcon.keyForeground",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "symbolIcon.keyForeground",
+      "backgrounds": ["quickInput.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "symbolIcon.keywordForeground",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "symbolIcon.keywordForeground",
+      "backgrounds": ["quickInput.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "symbolIcon.methodForeground",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "symbolIcon.methodForeground",
+      "backgrounds": ["quickInput.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "symbolIcon.moduleForeground",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "symbolIcon.moduleForeground",
+      "backgrounds": ["quickInput.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "symbolIcon.namespaceForeground",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "symbolIcon.namespaceForeground",
+      "backgrounds": ["quickInput.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "symbolIcon.nullForeground",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "symbolIcon.nullForeground",
+      "backgrounds": ["quickInput.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "symbolIcon.numberForeground",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "symbolIcon.numberForeground",
+      "backgrounds": ["quickInput.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "symbolIcon.objectForeground",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "symbolIcon.objectForeground",
+      "backgrounds": ["quickInput.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "symbolIcon.operatorForeground",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "symbolIcon.operatorForeground",
+      "backgrounds": ["quickInput.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "symbolIcon.packageForeground",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "symbolIcon.packageForeground",
+      "backgrounds": ["quickInput.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "symbolIcon.propertyForeground",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "symbolIcon.propertyForeground",
+      "backgrounds": ["quickInput.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "symbolIcon.referenceForeground",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "symbolIcon.referenceForeground",
+      "backgrounds": ["quickInput.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "symbolIcon.snippetForeground",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "symbolIcon.snippetForeground",
+      "backgrounds": ["quickInput.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "symbolIcon.stringForeground",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "symbolIcon.stringForeground",
+      "backgrounds": ["quickInput.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "symbolIcon.structForeground",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "symbolIcon.structForeground",
+      "backgrounds": ["quickInput.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "symbolIcon.textForeground",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "symbolIcon.textForeground",
+      "backgrounds": ["quickInput.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "symbolIcon.typeParameterForeground",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "symbolIcon.typeParameterForeground",
+      "backgrounds": ["quickInput.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "symbolIcon.unitForeground",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "symbolIcon.unitForeground",
+      "backgrounds": ["quickInput.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "symbolIcon.variableForeground",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "symbolIcon.variableForeground",
+      "backgrounds": ["quickInput.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "terminalSymbolIcon.aliasForeground",
+      "backgrounds": ["editorSuggestWidget.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "terminalSymbolIcon.argumentForeground",
+      "backgrounds": ["editorSuggestWidget.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "terminalSymbolIcon.branchForeground",
+      "backgrounds": ["editorSuggestWidget.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "terminalSymbolIcon.commitForeground",
+      "backgrounds": ["editorSuggestWidget.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "terminalSymbolIcon.fileForeground",
+      "backgrounds": ["editorSuggestWidget.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "terminalSymbolIcon.flagForeground",
+      "backgrounds": ["editorSuggestWidget.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "terminalSymbolIcon.folderForeground",
+      "backgrounds": ["editorSuggestWidget.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "terminalSymbolIcon.inlineSuggestionForeground",
+      "backgrounds": ["editorSuggestWidget.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "terminalSymbolIcon.methodForeground",
+      "backgrounds": ["editorSuggestWidget.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "terminalSymbolIcon.optionForeground",
+      "backgrounds": ["editorSuggestWidget.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "terminalSymbolIcon.optionValueForeground",
+      "backgrounds": ["editorSuggestWidget.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "terminalSymbolIcon.pullRequestDoneForeground",
+      "backgrounds": ["editorSuggestWidget.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "terminalSymbolIcon.pullRequestForeground",
+      "backgrounds": ["editorSuggestWidget.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "terminalSymbolIcon.remoteForeground",
+      "backgrounds": ["editorSuggestWidget.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "terminalSymbolIcon.stashForeground",
+      "backgrounds": ["editorSuggestWidget.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "terminalSymbolIcon.symbolicLinkFileForeground",
+      "backgrounds": ["editorSuggestWidget.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "terminalSymbolIcon.symbolicLinkFolderForeground",
+      "backgrounds": ["editorSuggestWidget.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "terminalSymbolIcon.tagForeground",
+      "backgrounds": ["editorSuggestWidget.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "extensionIcon.preReleaseForeground",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "extensionIcon.privateForeground",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "extensionIcon.sponsorForeground",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "extensionIcon.starForeground",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "extensionIcon.verifiedForeground",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "mcpIcon.starForeground",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "debugTokenExpression.name",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "debugTokenExpression.value",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "debugTokenExpression.string",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "debugTokenExpression.boolean",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "debugTokenExpression.number",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "debugTokenExpression.error",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "debugTokenExpression.type",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "testing.iconPassed",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "testing.iconFailed",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "testing.iconErrored",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "testing.iconQueued",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "testing.iconUnset",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "testing.iconSkipped",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "testing.runAction",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "testing.iconPassed.retired",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "testing.iconFailed.retired",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "testing.iconErrored.retired",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "testing.iconQueued.retired",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "testing.iconSkipped.retired",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "testing.iconUnset.retired",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "scmGraph.foreground1",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "scmGraph.foreground2",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "scmGraph.foreground3",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "scmGraph.foreground4",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "scmGraph.foreground5",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "scmGraph.historyItemRefColor",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "scmGraph.historyItemRemoteRefColor",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "scmGraph.historyItemBaseRefColor",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "charts.lines",
+      "backgrounds": ["editorWidget.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "charts.red",
+      "backgrounds": ["editorWidget.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "charts.blue",
+      "backgrounds": ["editorWidget.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "charts.yellow",
+      "backgrounds": ["editorWidget.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "charts.orange",
+      "backgrounds": ["editorWidget.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "charts.green",
+      "backgrounds": ["editorWidget.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "charts.purple",
+      "backgrounds": ["editorWidget.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "gitDecoration.addedResourceForeground",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "gitDecoration.modifiedResourceForeground",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "gitDecoration.deletedResourceForeground",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "gitDecoration.renamedResourceForeground",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "gitDecoration.untrackedResourceForeground",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "gitDecoration.ignoredResourceForeground",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "gitDecoration.conflictingResourceForeground",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "gitDecoration.submoduleResourceForeground",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "checkbox.border",
+      "backgrounds": ["checkbox.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "dropdown.border",
+      "backgrounds": ["dropdown.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "input.border",
+      "backgrounds": ["input.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "button.border",
+      "backgrounds": ["sideBar.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "modernActivityBar.activeForeground",
+      "backgrounds": ["modernActivityBar.activeBackground"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "modernActivityBar.hoverForeground",
+      "backgrounds": ["modernActivityBar.hoverBackground"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "modernActivityBarItem.activeForeground",
+      "backgrounds": ["modernActivityBarItem.activeBackground"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "modernActivityBarItem.hoverForeground",
+      "backgrounds": ["modernActivityBarItem.hoverBackground"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "modernEditorTab.activeForeground",
+      "backgrounds": ["modernEditorTab.activeBackground"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "modernEditorTab.hoverForeground",
+      "backgrounds": ["modernEditorTab.hoverBackground"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "modernTab.activeForeground",
+      "backgrounds": ["modernTab.activeBackground"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "modernTab.hoverForeground",
+      "backgrounds": ["modernTab.hoverBackground"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "agentsMobileDiff.addedForeground",
+      "backgrounds": ["editor.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "agentsMobileDiff.deletedForeground",
+      "backgrounds": ["editor.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "agentsMobileDiff.modifiedForeground",
+      "backgrounds": ["editor.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "editorOverviewRuler.agentFeedbackForeground",
+      "backgrounds": ["editor.background"],
+      "minimum": 3,
+      "kind": "indicator"
+    },
+    {
+      "foreground": "terminal.ansiRed",
+      "backgrounds": ["terminal.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "terminal.ansiGreen",
+      "backgrounds": ["terminal.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "terminal.ansiYellow",
+      "backgrounds": ["terminal.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "terminal.ansiBlue",
+      "backgrounds": ["terminal.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "terminal.ansiMagenta",
+      "backgrounds": ["terminal.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "terminal.ansiCyan",
+      "backgrounds": ["terminal.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "terminal.ansiBrightRed",
+      "backgrounds": ["terminal.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "terminal.ansiBrightGreen",
+      "backgrounds": ["terminal.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "terminal.ansiBrightYellow",
+      "backgrounds": ["terminal.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "terminal.ansiBrightBlue",
+      "backgrounds": ["terminal.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "terminal.ansiBrightMagenta",
+      "backgrounds": ["terminal.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "terminal.ansiBrightCyan",
+      "backgrounds": ["terminal.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "terminal.ansiBrightBlack",
+      "backgrounds": ["terminal.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    },
+    {
+      "foreground": "editorGutter.commentRangeForeground",
+      "backgrounds": ["editor.background"],
+      "minimum": 4.5,
+      "kind": "text"
+    }
+  ],
+  "syntaxSurfaces": [
+    {
+      "name": "editor",
+      "backgrounds": ["editor.background"]
+    },
+    {
+      "name": "active line",
+      "backgrounds": ["editor.lineHighlightBackground"]
+    },
+    {
+      "name": "find match",
+      "backgrounds": ["editor.findMatchBackground", "editor.background"]
+    },
+    {
+      "name": "find highlight",
+      "backgrounds": ["editor.findMatchHighlightBackground", "editor.background"]
+    },
+    {
+      "name": "peek editor",
+      "backgrounds": ["peekViewEditor.background"]
+    },
+    {
+      "name": "peek match",
+      "backgrounds": ["peekViewEditor.matchHighlightBackground", "peekViewEditor.background"]
+    },
+    {
+      "name": "notebook editor",
+      "backgrounds": ["notebook.cellEditorBackground"]
+    },
+    {
+      "name": "walkthrough editor",
+      "backgrounds": ["walkThrough.embeddedEditorBackground"]
+    },
+    {
+      "name": "chat request code",
+      "backgrounds": ["chat.requestBackground"]
+    },
+    {
+      "name": "chat bubble code",
+      "backgrounds": ["chat.requestBubbleBackground", "editor.background"]
+    },
+    {
+      "name": "agents panel code",
+      "backgrounds": ["agentsPanel.background"]
+    },
+    {
+      "name": "inline chat",
+      "backgrounds": ["inlineChat.background"]
+    },
+    {
+      "name": "active comment range",
+      "backgrounds": ["editorCommentsWidget.rangeActiveBackground", "editor.background"]
+    },
+    {
+      "name": "comment range",
+      "backgrounds": ["editorCommentsWidget.rangeBackground", "editor.background"]
+    },
+    {
+      "name": "inline edit modified",
+      "backgrounds": ["inlineEdit.modifiedBackground", "editor.background"]
+    },
+    {
+      "name": "inline edit modified line",
+      "backgrounds": [
+        "inlineEdit.modifiedChangedLineBackground",
+        "inlineEdit.modifiedBackground",
+        "editor.background"
+      ]
+    },
+    {
+      "name": "inline edit modified text",
+      "backgrounds": [
+        "inlineEdit.modifiedChangedTextBackground",
+        "inlineEdit.modifiedChangedLineBackground",
+        "inlineEdit.modifiedBackground",
+        "editor.background"
+      ]
+    },
+    {
+      "name": "inline edit original",
+      "backgrounds": ["inlineEdit.originalBackground", "editor.background"]
+    },
+    {
+      "name": "inline edit original line",
+      "backgrounds": [
+        "inlineEdit.originalChangedLineBackground",
+        "inlineEdit.originalBackground",
+        "editor.background"
+      ]
+    },
+    {
+      "name": "inline edit original text",
+      "backgrounds": [
+        "inlineEdit.originalChangedTextBackground",
+        "inlineEdit.originalChangedLineBackground",
+        "inlineEdit.originalBackground",
+        "editor.background"
+      ]
+    },
+    {
+      "name": "merge current",
+      "backgrounds": ["merge.currentContentBackground", "editor.background"]
+    },
+    {
+      "name": "merge incoming",
+      "backgrounds": ["merge.incomingContentBackground", "editor.background"]
+    },
+    {
+      "name": "merge common",
+      "backgrounds": ["merge.commonContentBackground", "editor.background"]
+    },
+    {
+      "name": "merge editor change",
+      "backgrounds": ["mergeEditor.change.background", "editor.background"]
+    },
+    {
+      "name": "merge editor changed word",
+      "backgrounds": [
+        "mergeEditor.change.word.background",
+        "mergeEditor.change.background",
+        "editor.background"
+      ]
+    },
+    {
+      "name": "merge editor base",
+      "backgrounds": ["mergeEditor.changeBase.background", "editor.background"]
+    },
+    {
+      "name": "merge editor base word",
+      "backgrounds": [
+        "mergeEditor.changeBase.word.background",
+        "mergeEditor.changeBase.background",
+        "editor.background"
+      ]
+    },
+    {
+      "name": "merge conflict input one",
+      "backgrounds": ["mergeEditor.conflict.input1.background", "editor.background"]
+    },
+    {
+      "name": "merge conflict input two",
+      "backgrounds": ["mergeEditor.conflict.input2.background", "editor.background"]
+    },
+    {
+      "name": "merge conflicting lines",
+      "backgrounds": ["mergeEditor.conflictingLines.background", "editor.background"]
+    },
+    {
+      "name": "testing info line",
+      "backgrounds": ["testing.message.info.lineBackground", "editor.background"]
+    },
+    {
+      "name": "testing error line",
+      "backgrounds": ["testing.message.error.lineBackground", "editor.background"]
+    },
+    {
+      "name": "testing covered line",
+      "backgrounds": ["testing.coveredBackground", "editor.background"]
+    },
+    {
+      "name": "testing uncovered line",
+      "backgrounds": ["testing.uncoveredBackground", "editor.background"]
+    },
+    {
+      "name": "notebook symbol highlight",
+      "backgrounds": ["notebook.symbolHighlightBackground", "notebook.cellEditorBackground"]
+    },
+    {
+      "name": "folded code",
+      "backgrounds": ["editor.foldBackground", "editor.background"]
+    },
+    {
+      "name": "linked editing",
+      "backgrounds": ["editor.linkedEditingBackground", "editor.background"]
+    },
+    {
+      "name": "word highlight text",
+      "backgrounds": ["editor.wordHighlightTextBackground", "editor.background"]
+    },
+    {
+      "name": "bracket match",
+      "backgrounds": ["editorBracketMatch.background", "editor.background"]
+    },
+    {
+      "name": "diagnostic error",
+      "backgrounds": ["editorError.background", "editor.background"]
+    },
+    {
+      "name": "diagnostic warning",
+      "backgrounds": ["editorWarning.background", "editor.background"]
+    },
+    {
+      "name": "diagnostic info",
+      "backgrounds": ["editorInfo.background", "editor.background"]
+    },
+    {
+      "name": "unicode highlight",
+      "backgrounds": ["editorUnicodeHighlight.background", "editor.background"]
+    },
+    {
+      "name": "search editor match",
+      "backgrounds": ["searchEditor.findMatchBackground", "editor.background"]
+    },
+    {
+      "name": "inserted line",
+      "backgrounds": ["diffEditor.insertedLineBackground", "editor.background"]
+    },
+    {
+      "name": "removed line",
+      "backgrounds": ["diffEditor.removedLineBackground", "editor.background"]
+    },
+    {
+      "name": "inserted text",
+      "backgrounds": [
+        "diffEditor.insertedTextBackground",
+        "diffEditor.insertedLineBackground",
+        "editor.background"
+      ]
+    },
+    {
+      "name": "removed text",
+      "backgrounds": [
+        "diffEditor.removedTextBackground",
+        "diffEditor.removedLineBackground",
+        "editor.background"
+      ]
+    },
+    {
+      "name": "inline chat inserted",
+      "backgrounds": ["inlineChatDiff.inserted", "inlineChat.background"]
+    },
+    {
+      "name": "inline chat removed",
+      "backgrounds": ["inlineChatDiff.removed", "inlineChat.background"]
+    },
+    {
+      "name": "chat.findMatchBackground",
+      "backgrounds": ["chat.findMatchBackground", "editor.background"]
+    },
+    {
+      "name": "chat.findMatchHighlightBackground",
+      "backgrounds": ["chat.findMatchHighlightBackground", "editor.background"]
+    },
+    {
+      "name": "editor.selectionBackground",
+      "backgrounds": ["editor.selectionBackground", "editor.background"]
+    },
+    {
+      "name": "editor.inactiveSelectionBackground",
+      "backgrounds": ["editor.inactiveSelectionBackground", "editor.background"]
+    },
+    {
+      "name": "editor.selectionHighlightBackground",
+      "backgrounds": ["editor.selectionHighlightBackground", "editor.background"]
+    },
+    {
+      "name": "editor.wordHighlightBackground",
+      "backgrounds": ["editor.wordHighlightBackground", "editor.background"]
+    },
+    {
+      "name": "editor.wordHighlightStrongBackground",
+      "backgrounds": ["editor.wordHighlightStrongBackground", "editor.background"]
+    },
+    {
+      "name": "editor.stackFrameHighlightBackground",
+      "backgrounds": ["editor.stackFrameHighlightBackground", "editor.background"]
+    },
+    {
+      "name": "editor.focusedStackFrameHighlightBackground",
+      "backgrounds": ["editor.focusedStackFrameHighlightBackground", "editor.background"]
+    },
+    {
+      "name": "editor.snippetTabstopHighlightBackground",
+      "backgrounds": ["editor.snippetTabstopHighlightBackground", "editor.background"]
+    },
+    {
+      "name": "editor.snippetFinalTabstopHighlightBackground",
+      "backgrounds": ["editor.snippetFinalTabstopHighlightBackground", "editor.background"]
+    },
+    {
+      "name": "editorStickyScroll.background",
+      "backgrounds": ["editorStickyScroll.background", "editor.background"]
+    }
+  ],
+  "exclusions": {
+    "selection.background": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "textBlockQuote.background": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "textBlockQuote.border": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "textCodeBlock.background": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "textSeparator.foreground": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "dropdown.listBackground": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "inputOption.activeBorder": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "inputValidation.errorBorder": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "inputValidation.infoBorder": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "inputValidation.warningBorder": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "scrollbar.shadow": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "scrollbarSlider.background": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "scrollbar.background": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "scrollbarSlider.hoverBackground": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "scrollbarSlider.activeBackground": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "progressBar.background": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "list.dropBackground": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "listFilterWidget.background": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "listFilterWidget.outline": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "listFilterWidget.noMatchesOutline": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "activityBar.border": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "sideBar.border": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "sideBarSectionHeader.border": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "sideBar.dropBackground": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "minimap.background": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "minimap.foregroundOpacity": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "minimap.selectionHighlight": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "minimap.findMatchHighlight": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "minimap.errorHighlight": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "minimap.warningHighlight": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "minimapSlider.background": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "minimapSlider.hoverBackground": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "minimapSlider.activeBackground": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "editorGroup.border": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "editorGroup.dropBackground": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "editorGroupHeader.noTabsBackground": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "editorGroupHeader.tabsBackground": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "editorGroupHeader.tabsBorder": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "editorGroupHeader.border": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "tab.activeBorder": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "tab.hoverBorder": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "tab.border": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "tab.unfocusedActiveBorderTop": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "tab.lastPinnedBorder": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "editorCursor.background": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "editor.findRangeHighlightBackground": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "editor.hoverHighlightBackground": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "editor.lineHighlightBorder": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "editor.rangeHighlightBackground": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "editor.symbolHighlightBackground": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "editorWhitespace.foreground": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "editorIndentGuide.background1": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "editorIndentGuide.activeBackground1": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "editorRuler.foreground": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "editorBracketPairGuide.background1": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "editorBracketPairGuide.background2": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "editorBracketPairGuide.background3": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "editorBracketPairGuide.activeBackground1": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "editorBracketPairGuide.activeBackground2": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "editorBracketPairGuide.activeBackground3": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "editorOverviewRuler.border": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "editorError.border": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "editorWarning.border": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "editorInfo.border": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "editorUnnecessaryCode.opacity": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "editorGutter.background": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "editorGutter.modifiedBackground": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "editorWidget.border": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "editorWidget.resizeBorder": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "editorSuggestWidget.border": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "editorSuggestWidget.focusOutline": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "editorHoverWidget.border": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "editorHoverWidget.statusBarBackground": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "editorMarkerNavigation.background": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "editorMarkerNavigationError.background": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "editorMarkerNavigationWarning.background": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "editorMarkerNavigationInfo.background": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "peekView.border": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "peekViewEditorGutter.background": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "peekViewEditorStickyScroll.background": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "peekViewEditorStickyScrollGutter.background": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "peekViewResult.matchHighlightBackground": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "diffEditor.diagonalFill": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "panel.border": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "panel.dropBorder": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "panelInput.border": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "statusBar.border": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "statusBar.focusBorder": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "statusBarItem.activeBackground": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "titleBar.border": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "menu.selectionBorder": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "menu.separatorBackground": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "menu.border": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "notifications.border": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "quickInputTitle.background": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "pickerGroup.border": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "keybindingLabel.border": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "keybindingLabel.bottomBorder": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "terminalCursor.background": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "terminal.findMatchBackground": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "terminal.findMatchHighlightBackground": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "terminal.dropBackground": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "terminal.tab.activeBorder": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "terminal.ansiBlack": "ANSI endpoint: applications use this as both background and foreground; unrestricted ANSI combinations cannot all meet text contrast.",
+    "terminal.ansiWhite": "ANSI endpoint: applications use this as both background and foreground; unrestricted ANSI combinations cannot all meet text contrast.",
+    "terminal.ansiBrightWhite": "ANSI endpoint: applications use this as both background and foreground; unrestricted ANSI combinations cannot all meet text contrast.",
+    "debugToolBar.border": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "notebook.cellBorderColor": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "notebook.selectedCellBackground": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "breadcrumbPicker.background": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "settings.modifiedItemIndicator": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "settings.dropdownBorder": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "settings.checkboxBorder": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "settings.textInputBorder": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "settings.numberInputBorder": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "welcomePage.background": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "welcomePage.tileBackground": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "welcomePage.tileHoverBackground": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "widget.border": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "browser.border": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "widget.shadow": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "chat.requestBorder": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "chat.requestBubbleHoverBackground": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "chat.requestCodeBorder": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "chat.checkpointSeparator": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "agents.background": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "agentsPanel.border": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "agentsChatInput.border": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "agentsGradient.tintColor": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "agentsNewSessionButton.border": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "agentStatusIndicator.background": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "inlineChat.border": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "inlineChat.shadow": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "inlineChatInput.border": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "interactive.activeCodeBorder": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "interactive.inactiveCodeBorder": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "editorMinimap.inlineChatInserted": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "editorOverviewRuler.inlineChatInserted": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "editorOverviewRuler.inlineChatRemoved": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "minimap.chatEditHighlight": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "inlineEdit.gutterIndicator.background": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "editorGhostText.border": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "editorCommentsWidget.replyInputBackground": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "commentsView.resolvedIcon": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "commentsView.unresolvedIcon": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "tab.selectedBorderTop": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "tab.dragAndDropBorder": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "tab.unfocusedActiveBackground": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "tab.unfocusedActiveBorder": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "tab.unfocusedInactiveBackground": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "tab.unfocusedHoverBackground": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "tab.unfocusedHoverBorder": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "tab.activeModifiedBorder": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "tab.inactiveModifiedBorder": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "tab.unfocusedActiveModifiedBorder": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "tab.unfocusedInactiveModifiedBorder": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "merge.currentHeaderBackground": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "merge.incomingHeaderBackground": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "merge.commonHeaderBackground": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "testing.peekHeaderBackground": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "testing.messagePeekHeaderBackground": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "testing.coveredMinimapBackground": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "testing.uncoveredMinimapBackground": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "debugView.valueChangedHighlight": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "notebook.cellHoverBackground": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "notebook.focusedCellBackground": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "notebook.cellStatusBarItemHoverBackground": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "notebook.cellToolbarSeparator": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "notebook.outputContainerBackgroundColor": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "notebook.outputContainerBorderColor": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "notebookScrollbarSlider.background": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "notebookScrollbarSlider.hoverBackground": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "notebookScrollbarSlider.activeBackground": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "terminalOverviewRuler.border": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "terminalStickyScroll.background": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "terminalStickyScroll.border": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "terminalStickyScrollHover.background": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "commandCenter.border": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "commandCenter.inactiveBorder": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "commandCenter.debuggingBackground": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "extensionButton.border": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "extensionButton.separator": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "terminal.border": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "terminal.findMatchBorder": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "terminal.findMatchHighlightBorder": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "terminal.hoverHighlightBackground": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "editor.inactiveLineHighlightBackground": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "editorBracketPairGuide.activeBackground4": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "editorBracketPairGuide.activeBackground5": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "editorBracketPairGuide.activeBackground6": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "editorBracketPairGuide.background4": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "editorBracketPairGuide.background5": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "editorBracketPairGuide.background6": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "editorHint.border": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "editorIndentGuide.activeBackground": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "editorIndentGuide.activeBackground2": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "editorIndentGuide.activeBackground3": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "editorIndentGuide.activeBackground4": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "editorIndentGuide.activeBackground5": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "editorIndentGuide.activeBackground6": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "editorIndentGuide.background": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "editorIndentGuide.background2": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "editorIndentGuide.background3": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "editorIndentGuide.background4": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "editorIndentGuide.background5": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "editorIndentGuide.background6": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "editorOverviewRuler.background": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "editorUnnecessaryCode.border": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "searchEditor.textInputBorder": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "statusBar.debuggingBorder": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "statusBar.noFolderBorder": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "statusBarItem.compactHoverBackground": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "list.filterMatchBackground": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "list.inactiveFocusBackground": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "listFilterWidget.shadow": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "tree.inactiveIndentGuidesStroke": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "tree.indentGuidesStroke": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "tree.tableColumnsBorder": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "tree.tableOddRowsBackground": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "button.secondaryBorder": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "button.separator": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "radio.inactiveHoverBackground": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "outputView.background": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "outputViewStickyScroll.background": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "panelSection.border": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "panelSection.dropBackground": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "panelSectionHeader.border": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "panelStickyScroll.border": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "panelStickyScroll.shadow": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "panelTitle.border": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "activityBarTop.activeBackground": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "editorStickyScroll.border": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "editorStickyScroll.shadow": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "editorStickyScrollGutter.background": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "editorStickyScrollHover.background": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "editorPane.background": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "sideBySideEditor.horizontalBorder": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "sideBySideEditor.verticalBorder": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "diffEditor.border": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "diffEditor.unchangedCodeBackground": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "diffEditor.unchangedRegionShadow": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "diffEditor.move.border": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "diffEditor.moveActive.border": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "multiDiffEditor.background": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "multiDiffEditor.border": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "multiDiffEditor.headerBackground": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "editor.snippetTabstopHighlightBorder": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "editor.snippetFinalTabstopHighlightBorder": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "inputOption.hoverBackground": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "settings.focusedRowBackground": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "settings.rowHoverBackground": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "settings.focusedRowBorder": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "settings.headerBorder": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "settings.sashBorder": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "settings.dropdownListBorder": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "toolbar.hoverBackground": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "toolbar.activeBackground": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "toolbar.hoverOutline": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "actionBar.toggledBackground": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "sideBarStickyScroll.background": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "sideBarStickyScroll.border": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "sideBarActivityBarTop.border": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "sideBarStickyScroll.shadow": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "sideBarTitle.background": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "sideBarTitle.border": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "minimap.infoHighlight": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "minimap.selectionOccurrenceHighlight": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "minimapGutter.addedBackground": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "minimapGutter.deletedBackground": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "minimapGutter.modifiedBackground": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "surface.border": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "window.activeBorder": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "window.inactiveBorder": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "menubar.selectionBorder": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "textPreformat.border": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "welcomePage.tileBorder": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "simpleFindWidget.sashBorder": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "sash.hoverBorder": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "chart.line": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "chart.axis": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "chart.guide": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "agentFeedbackEditorWidget.background": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "agentFeedbackEditorWidget.border": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "agentFeedbackInputWidget.border": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "agentsVoice.speakingBackground": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "agentsVoice.speakingForeground": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "agentsUpdateButton.downloadedBackground": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "agentsUpdateButton.downloadingBackground": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "chat.voiceGlowBaseColor": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "chat.voiceSpeakingGlow": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "chat.voiceListeningGlow": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "chat.dictationActiveMicGlow": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "agentsBottomPanel.border": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "agentsCard.border": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "chat.statusBackground": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "editor.border": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "keybindingTable.headerBackground": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "keybindingTable.rowsBackground": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "modernActivityBar.background": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "modernActivityBar.border": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
+    "modernActivityBar.inactiveBackground": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "modernEditorTab.activeActionBackground": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "modernEditorTab.activeHoverActionBackground": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "modernEditorTab.activeHoverBackground": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "modernEditorTab.hoverActionBackground": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "modernEditorTab.inactiveBackground": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "modernEditorTab.selectedActionBackground": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
+    "quickInput.list.focusBackground": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled."
+  }
+}

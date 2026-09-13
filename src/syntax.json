@@ -1,0 +1,1165 @@
+[
+  {
+    "name": "Plain text and embedded source",
+    "scope": [
+      "meta.embedded",
+      "source.groovy.embedded",
+      "string meta.image.inline.markdown",
+      "variable.legacy.builtin.python"
+    ],
+    "role": "foreground"
+  },
+  {
+    "name": "Comments",
+    "scope": ["comment", "punctuation.definition.comment"],
+    "role": "muted"
+  },
+  {
+    "name": "Documentation tags",
+    "scope": [
+      "comment.block.documentation storage.type.class",
+      "comment.block.documentation entity.name.type",
+      "comment.block.documentation variable.other"
+    ],
+    "role": "muted"
+  },
+  {
+    "name": "Keywords",
+    "scope": [
+      "keyword",
+      "storage.type",
+      "storage.modifier",
+      "keyword.operator.new",
+      "keyword.operator.expression",
+      "keyword.operator.cast",
+      "keyword.operator.sizeof",
+      "keyword.operator.alignof",
+      "keyword.operator.typeid",
+      "keyword.operator.instanceof",
+      "keyword.operator.logical.python",
+      "keyword.operator.wordlike"
+    ],
+    "role": "keyword"
+  },
+  {
+    "name": "Control flow and directives",
+    "scope": [
+      "keyword.control",
+      "keyword.other.using",
+      "keyword.other.directive",
+      "keyword.other.operator",
+      "entity.name.operator"
+    ],
+    "role": "keyword"
+  },
+  {
+    "name": "Operators",
+    "scope": ["keyword.operator", "punctuation.separator", "punctuation.accessor"],
+    "role": "subtle"
+  },
+  {
+    "name": "Functions and methods",
+    "scope": [
+      "entity.name.function",
+      "meta.function-call",
+      "support.function",
+      "support.constant.handlebars",
+      "source.powershell variable.other.member",
+      "entity.name.operator.custom-literal"
+    ],
+    "role": "accent"
+  },
+  {
+    "name": "General and built-in types",
+    "scope": [
+      "support.class",
+      "support.type",
+      "entity.name.type",
+      "entity.name.namespace",
+      "entity.other.inherited-class",
+      "entity.other.attribute",
+      "entity.name.scope-resolution",
+      "entity.name.class",
+      "storage.type.numeric.go",
+      "storage.type.byte.go",
+      "storage.type.boolean.go",
+      "storage.type.string.go",
+      "storage.type.uintptr.go",
+      "storage.type.error.go",
+      "storage.type.rune.go",
+      "storage.type.cs",
+      "storage.type.generic.cs",
+      "storage.type.modifier.cs",
+      "storage.type.variable.cs",
+      "storage.type.annotation.java",
+      "storage.type.generic.java",
+      "storage.type.java",
+      "meta.type.cast.expr",
+      "meta.type.new.expr",
+      "storage.type.sql",
+      "storage.type.powershell"
+    ],
+    "role": "amber"
+  },
+  {
+    "name": "Namespaces and modules",
+    "scope": [
+      "entity.name.namespace",
+      "entity.name.module",
+      "entity.name.type.module",
+      "entity.name.type.package",
+      "entity.name.import.go",
+      "entity.name.type.module.ts",
+      "entity.name.type.package.go",
+      "entity.name.module.rust",
+      "entity.name.namespace.rust"
+    ],
+    "role": "muted"
+  },
+  {
+    "name": "Classes",
+    "scope": [
+      "entity.name.class",
+      "entity.name.type.class",
+      "entity.name.type.class.ts",
+      "entity.name.type.class.python",
+      "support.class",
+      "support.class.ts",
+      "support.class.promise.ts",
+      "entity.other.inherited-class"
+    ],
+    "role": "amber"
+  },
+  {
+    "name": "Interfaces and traits",
+    "scope": [
+      "entity.name.type.interface",
+      "entity.name.type.interface.ts",
+      "entity.name.type.trait",
+      "entity.name.type.trait.rust"
+    ],
+    "role": "info"
+  },
+  {
+    "name": "Structs and records",
+    "scope": [
+      "entity.name.type.struct",
+      "entity.name.type.struct.rust",
+      "entity.name.type.record",
+      "entity.name.type.declaration.rust"
+    ],
+    "role": "success"
+  },
+  {
+    "name": "Enums and unions",
+    "scope": [
+      "entity.name.type.enum",
+      "entity.name.type.enum.ts",
+      "entity.name.type.enum.rust",
+      "entity.name.type.union"
+    ],
+    "role": "amber"
+  },
+  {
+    "name": "Type aliases and parameters",
+    "scope": [
+      "entity.name.type.alias",
+      "entity.name.type.alias.ts",
+      "entity.name.type.type-parameter",
+      "entity.name.type.parameter",
+      "entity.name.type.metavariable.rust",
+      "entity.name.type.lifetime.rust"
+    ],
+    "role": "violet"
+  },
+  {
+    "name": "Decorators and annotations",
+    "scope": [
+      "meta.decorator",
+      "meta.decorator.ts",
+      "entity.name.function.decorator",
+      "entity.name.function.decorator.python",
+      "entity.other.attribute",
+      "storage.type.annotation",
+      "entity.name.type.annotation"
+    ],
+    "role": "violet"
+  },
+  {
+    "name": "Named constants and enum members",
+    "scope": [
+      "variable.other.constant",
+      "variable.other.enummember",
+      "support.constant",
+      "variable.other.constant.ts",
+      "variable.other.constant.object.ts",
+      "variable.other.constant.property.ts",
+      "variable.other.constant.go"
+    ],
+    "role": "amber"
+  },
+  {
+    "name": "C# declaration keywords",
+    "scope": [
+      "storage.type.class.cs",
+      "storage.type.delegate.cs",
+      "storage.type.enum.cs",
+      "storage.type.interface.cs",
+      "storage.type.namespace.cs",
+      "storage.type.record.cs",
+      "storage.type.struct.cs"
+    ],
+    "role": "keyword"
+  },
+  {
+    "name": "C# modifiers and accessors",
+    "scope": ["source.cs storage.modifier", "source.cs storage.type.accessor"],
+    "role": "subtle"
+  },
+  {
+    "name": "C# built-in and inferred types",
+    "scope": ["source.cs keyword.type", "storage.type.var.cs"],
+    "role": "amber"
+  },
+  {
+    "name": "C# imports and using directives",
+    "scope": [
+      "keyword.other.directive.alias.cs",
+      "keyword.other.directive.global.cs",
+      "keyword.other.directive.static.cs",
+      "keyword.other.directive.using.cs"
+    ],
+    "role": "keyword"
+  },
+  {
+    "name": "C# language constants",
+    "scope": "source.cs constant.language",
+    "role": "amber"
+  },
+  {
+    "name": "C# namespaces",
+    "scope": "entity.name.type.namespace.cs",
+    "role": "muted"
+  },
+  {
+    "name": "C# general types and aliases",
+    "scope": ["entity.name.type.cs", "entity.name.type.alias.cs", "entity.name.type.delegate.cs"],
+    "role": "amber"
+  },
+  {
+    "name": "C# type parameters",
+    "scope": "entity.name.type.type-parameter.cs",
+    "role": "violet"
+  },
+  {
+    "name": "C# classes",
+    "scope": "entity.name.type.class.cs",
+    "role": "amber"
+  },
+  {
+    "name": "C# interfaces",
+    "scope": "entity.name.type.interface.cs",
+    "role": "info"
+  },
+  {
+    "name": "C# structs",
+    "scope": "entity.name.type.struct.cs",
+    "role": "success"
+  },
+  {
+    "name": "C# enums",
+    "scope": "entity.name.type.enum.cs",
+    "role": "amber"
+  },
+  {
+    "name": "C# methods",
+    "scope": "entity.name.function.cs",
+    "role": "accent"
+  },
+  {
+    "name": "C# operators",
+    "scope": "source.cs keyword.operator",
+    "role": "subtle"
+  },
+  {
+    "name": "Variables",
+    "scope": [
+      "variable",
+      "meta.definition.variable.name",
+      "entity.name.variable",
+      "constant.other.placeholder"
+    ],
+    "role": "foreground"
+  },
+  {
+    "name": "Parameters",
+    "scope": ["variable.parameter", "meta.parameters variable"],
+    "role": "subtle"
+  },
+  {
+    "name": "Language variables",
+    "scope": ["variable.language", "variable.language.this", "variable.language.self"],
+    "role": "foreground"
+  },
+  {
+    "name": "Properties and object keys",
+    "scope": [
+      "variable.other.property",
+      "variable.other.object.property",
+      "meta.object-literal.key",
+      "support.type.property-name",
+      "support.type.vendored.property-name",
+      "meta.structure.dictionary.key.python"
+    ],
+    "role": "subtle"
+  },
+  {
+    "name": "C# fields",
+    "scope": "entity.name.variable.field.cs",
+    "role": "subtle"
+  },
+  {
+    "name": "C# local variables",
+    "scope": "entity.name.variable.local.cs",
+    "role": "foreground"
+  },
+  {
+    "name": "C# range and tuple variables",
+    "scope": ["entity.name.variable.range-variable.cs", "entity.name.variable.tuple-element.cs"],
+    "role": "foreground"
+  },
+  {
+    "name": "C# parameters",
+    "scope": "entity.name.variable.parameter.cs",
+    "role": "subtle"
+  },
+  {
+    "name": "C# properties",
+    "scope": ["entity.name.variable.property.cs", "variable.other.object.property.cs"],
+    "role": "subtle"
+  },
+  {
+    "name": "C# events",
+    "scope": "entity.name.variable.event.cs",
+    "role": "success"
+  },
+  {
+    "name": "C# enum members",
+    "scope": "entity.name.variable.enum-member.cs",
+    "role": "amber"
+  },
+  {
+    "name": "Constants and enum members",
+    "scope": [
+      "constant.language",
+      "variable.other.constant",
+      "variable.other.enummember",
+      "support.constant"
+    ],
+    "role": "amber"
+  },
+  {
+    "name": "Numbers",
+    "scope": [
+      "constant.numeric",
+      "keyword.other.unit",
+      "keyword.operator.plus.exponent",
+      "keyword.operator.minus.exponent"
+    ],
+    "role": "amber"
+  },
+  {
+    "name": "Strings",
+    "scope": ["string", "string.value", "string.tag", "meta.embedded.assembly"],
+    "role": "string"
+  },
+  {
+    "name": "String escapes and interpolation",
+    "scope": [
+      "constant.character.escape",
+      "punctuation.definition.template-expression.begin",
+      "punctuation.definition.template-expression.end",
+      "punctuation.section.embedded"
+    ],
+    "role": "violet"
+  },
+  {
+    "name": "Regular expressions",
+    "scope": [
+      "string.regexp",
+      "constant.regexp",
+      "constant.character.character-class.regexp",
+      "constant.other.character-class.set.regexp",
+      "constant.other.character-class.regexp",
+      "constant.character.set.regexp",
+      "punctuation.definition.group.regexp",
+      "punctuation.definition.group.assertion.regexp",
+      "punctuation.definition.character-class.regexp",
+      "keyword.operator.or.regexp",
+      "keyword.operator.quantifier.regexp",
+      "keyword.control.anchor.regexp"
+    ],
+    "role": "violet"
+  },
+  {
+    "name": "Characters and options",
+    "scope": ["constant.character", "constant.other.option"],
+    "role": "string"
+  },
+  {
+    "name": "Tags",
+    "scope": [
+      "entity.name.tag",
+      "entity.name.tag.css",
+      "entity.name.tag.less",
+      "entity.name.selector"
+    ],
+    "role": "subtle"
+  },
+  {
+    "name": "Attributes and CSS selectors",
+    "scope": [
+      "entity.other.attribute-name",
+      "entity.other.attribute-name.class.css",
+      "entity.other.attribute-name.id.css",
+      "entity.other.attribute-name.parent-selector.css",
+      "entity.other.attribute-name.pseudo-class",
+      "entity.other.attribute-name.pseudo-element.css",
+      "entity.other.attribute-name.scss"
+    ],
+    "role": "violet"
+  },
+  {
+    "name": "CSS property values",
+    "scope": [
+      "support.constant.property-value",
+      "support.constant.font-name",
+      "support.constant.media-type",
+      "support.constant.media",
+      "constant.other.color.rgb-value",
+      "constant.other.rgb-value",
+      "support.constant.color"
+    ],
+    "role": "subtle"
+  },
+  {
+    "name": "JSON string values",
+    "scope": [
+      "meta.structure.dictionary.value.json string.quoted.double.json",
+      "meta.structure.array.json string.quoted.double.json",
+      "meta.structure.dictionary.value.json.comments string.quoted.double.json.comments",
+      "meta.structure.array.json.comments string.quoted.double.json.comments"
+    ],
+    "role": "string"
+  },
+  {
+    "name": "JSON numbers",
+    "scope": ["constant.numeric.json", "constant.numeric.json.comments"],
+    "role": "amber"
+  },
+  {
+    "name": "JSON booleans and null",
+    "scope": ["constant.language.json", "constant.language.json.comments"],
+    "role": "amber"
+  },
+  {
+    "name": "JSON escapes",
+    "scope": ["constant.character.escape.json", "constant.character.escape.json.comments"],
+    "role": "violet"
+  },
+  {
+    "name": "JSON punctuation",
+    "scope": [
+      "punctuation.definition.array.begin.json",
+      "punctuation.definition.array.end.json",
+      "punctuation.definition.dictionary.begin.json",
+      "punctuation.definition.dictionary.end.json",
+      "punctuation.separator.array.json",
+      "punctuation.separator.dictionary.key-value.json",
+      "punctuation.separator.dictionary.pair.json",
+      "punctuation.definition.array.begin.json.comments",
+      "punctuation.definition.array.end.json.comments",
+      "punctuation.definition.dictionary.begin.json.comments",
+      "punctuation.definition.dictionary.end.json.comments",
+      "punctuation.separator.array.json.comments",
+      "punctuation.separator.dictionary.key-value.json.comments",
+      "punctuation.separator.dictionary.pair.json.comments"
+    ],
+    "role": "subtle"
+  },
+  {
+    "name": "JSON property names",
+    "scope": [
+      "support.type.property-name.json",
+      "support.type.property-name.json.comments",
+      "string.json support.type.property-name.json",
+      "string.json.comments support.type.property-name.json.comments",
+      "meta.structure.dictionary.json string.quoted.double",
+      "meta.structure.dictionary.json.comments string.quoted.double"
+    ],
+    "role": "subtle"
+  },
+  {
+    "name": "YAML quoted strings",
+    "scope": ["string.quoted.double.yaml", "string.quoted.single.yaml"],
+    "role": "string"
+  },
+  {
+    "name": "YAML plain and block scalars",
+    "scope": [
+      "string.unquoted.plain.in.yaml",
+      "string.unquoted.plain.out.yaml",
+      "string.unquoted.block.yaml"
+    ],
+    "role": "string"
+  },
+  {
+    "name": "YAML numbers and timestamps",
+    "scope": [
+      "constant.numeric.yaml",
+      "constant.numeric.float.yaml",
+      "constant.numeric.integer.yaml",
+      "constant.numeric.timestamp.yaml"
+    ],
+    "role": "amber"
+  },
+  {
+    "name": "YAML booleans",
+    "scope": "constant.language.boolean.yaml",
+    "role": "amber"
+  },
+  {
+    "name": "YAML null values",
+    "scope": "constant.language.null.yaml",
+    "role": "amber"
+  },
+  {
+    "name": "YAML anchors",
+    "scope": [
+      "variable.other.anchor.yaml",
+      "keyword.control.flow.anchor.yaml",
+      "punctuation.definition.anchor.yaml"
+    ],
+    "role": "subtle"
+  },
+  {
+    "name": "YAML aliases",
+    "scope": [
+      "variable.other.alias.yaml",
+      "keyword.control.flow.alias.yaml",
+      "punctuation.definition.alias.yaml"
+    ],
+    "role": "subtle"
+  },
+  {
+    "name": "YAML tags",
+    "scope": [
+      "storage.type.tag-handle.yaml",
+      "storage.type.tag.non-specific.yaml",
+      "storage.type.tag.shorthand.yaml",
+      "storage.type.tag.verbatim.yaml",
+      "support.type.tag-prefix.yaml"
+    ],
+    "role": "subtle"
+  },
+  {
+    "name": "YAML directives",
+    "scope": [
+      "keyword.other.directive.other.yaml",
+      "keyword.other.directive.tag.yaml",
+      "keyword.other.directive.yaml.yaml",
+      "string.unquoted.directive-name.yaml"
+    ],
+    "role": "keyword"
+  },
+  {
+    "name": "YAML punctuation and document markers",
+    "scope": [
+      "entity.other.document.begin.yaml",
+      "entity.other.document.end.yaml",
+      "punctuation.definition.block.sequence.item.yaml",
+      "punctuation.definition.map.key.yaml",
+      "punctuation.definition.mapping.begin.yaml",
+      "punctuation.definition.mapping.end.yaml",
+      "punctuation.definition.sequence.begin.yaml",
+      "punctuation.definition.sequence.end.yaml",
+      "punctuation.separator.map.value.yaml",
+      "punctuation.separator.mapping.yaml",
+      "punctuation.separator.sequence.yaml"
+    ],
+    "role": "subtle"
+  },
+  {
+    "name": "YAML keys",
+    "scope": [
+      "entity.name.tag.yaml",
+      "meta.map.key.yaml string.quoted.double.yaml entity.name.tag.yaml",
+      "meta.map.key.yaml string.quoted.single.yaml entity.name.tag.yaml",
+      "meta.map.key.yaml string.unquoted.plain.yaml entity.name.tag.yaml",
+      "meta.flow.map.key.yaml string.unquoted.plain.in.yaml entity.name.tag.yaml"
+    ],
+    "role": "subtle"
+  },
+  {
+    "name": "Preprocessor directives",
+    "scope": ["meta.preprocessor", "entity.name.function.preprocessor"],
+    "role": "keyword"
+  },
+  {
+    "name": "Labels",
+    "scope": "entity.name.label",
+    "role": "muted"
+  },
+  {
+    "name": "Go packages",
+    "scope": ["entity.name.type.package.go", "entity.name.import.go"],
+    "role": "muted"
+  },
+  {
+    "name": "Go named types",
+    "scope": ["entity.name.type.go", "entity.name.type.any.go", "entity.name.type.comparable.go"],
+    "role": "amber"
+  },
+  {
+    "name": "Go built-in types",
+    "scope": [
+      "storage.type.numeric.go",
+      "storage.type.byte.go",
+      "storage.type.boolean.go",
+      "storage.type.string.go",
+      "storage.type.uintptr.go",
+      "storage.type.error.go",
+      "storage.type.rune.go"
+    ],
+    "role": "amber"
+  },
+  {
+    "name": "Go functions",
+    "scope": [
+      "entity.name.function.go",
+      "entity.name.function.support.go",
+      "entity.name.function.support.builtin.go"
+    ],
+    "role": "accent"
+  },
+  {
+    "name": "Go properties",
+    "scope": "variable.other.property.go",
+    "role": "subtle"
+  },
+  {
+    "name": "Go parameters",
+    "scope": "variable.parameter.go",
+    "role": "subtle"
+  },
+  {
+    "name": "Go constants",
+    "scope": "variable.other.constant.go",
+    "role": "amber"
+  },
+  {
+    "name": "Python decorators",
+    "scope": [
+      "meta.function.decorator.python",
+      "entity.name.function.decorator.python",
+      "punctuation.definition.decorator.python"
+    ],
+    "role": "violet"
+  },
+  {
+    "name": "Python classes",
+    "scope": ["entity.name.type.class.python", "entity.other.inherited-class.python"],
+    "role": "amber"
+  },
+  {
+    "name": "Python functions",
+    "scope": "entity.name.function.python",
+    "role": "accent"
+  },
+  {
+    "name": "Python parameters",
+    "scope": [
+      "variable.parameter.function.language.python",
+      "variable.parameter.function-call.python"
+    ],
+    "role": "subtle"
+  },
+  {
+    "name": "Python self and cls",
+    "scope": [
+      "variable.language.special.self.python",
+      "variable.language.special.cls.python",
+      "variable.parameter.function.language.special.self.python",
+      "variable.parameter.function.language.special.cls.python"
+    ],
+    "role": "foreground"
+  },
+  {
+    "name": "Python built-in functions and variables",
+    "scope": ["support.function.builtin.python", "variable.legacy.builtin.python"],
+    "role": "accent"
+  },
+  {
+    "name": "Python types and exceptions",
+    "scope": [
+      "support.type.python",
+      "support.type.exception.python",
+      "support.type.metaclass.python"
+    ],
+    "role": "amber"
+  },
+  {
+    "name": "Python magic symbols",
+    "scope": ["support.function.magic.python", "support.variable.magic.python"],
+    "role": "amber"
+  },
+  {
+    "name": "Python named constants",
+    "scope": "constant.other.caps.python",
+    "role": "amber"
+  },
+  {
+    "name": "PowerShell declarations",
+    "scope": "storage.type.powershell",
+    "role": "keyword"
+  },
+  {
+    "name": "PowerShell modifiers",
+    "scope": ["storage.modifier.powershell", "storage.modifier.scope.powershell"],
+    "role": "subtle"
+  },
+  {
+    "name": "PowerShell functions and constructors",
+    "scope": [
+      "entity.name.function.powershell",
+      "source.powershell entity.name.function",
+      "support.function.powershell"
+    ],
+    "role": "accent"
+  },
+  {
+    "name": "PowerShell parameters",
+    "scope": ["variable.parameter.powershell", "variable.parameter.attribute.powershell"],
+    "role": "subtle"
+  },
+  {
+    "name": "PowerShell members",
+    "scope": "variable.other.member.powershell",
+    "role": "subtle"
+  },
+  {
+    "name": "PowerShell automatic and language variables",
+    "scope": ["support.variable.automatic.powershell", "variable.language.powershell"],
+    "role": "foreground"
+  },
+  {
+    "name": "PowerShell constants",
+    "scope": ["support.constant.variable.powershell", "constant.language.powershell"],
+    "role": "amber"
+  },
+  {
+    "name": "PowerShell attributes",
+    "scope": "support.function.attribute.powershell",
+    "role": "violet"
+  },
+  {
+    "name": "Rust modules and namespaces",
+    "scope": ["entity.name.module.rust", "entity.name.namespace.rust"],
+    "role": "muted"
+  },
+  {
+    "name": "Rust structs",
+    "scope": ["entity.name.type.struct.rust", "entity.name.type.declaration.rust"],
+    "role": "success"
+  },
+  {
+    "name": "Rust traits",
+    "scope": "entity.name.type.trait.rust",
+    "role": "info"
+  },
+  {
+    "name": "Rust enums",
+    "scope": "entity.name.type.enum.rust",
+    "role": "amber"
+  },
+  {
+    "name": "Rust primitive and library types",
+    "scope": [
+      "entity.name.type.primitive.rust",
+      "entity.name.type.numeric.rust",
+      "entity.name.type.option.rust",
+      "entity.name.type.result.rust",
+      "entity.name.type.rust"
+    ],
+    "role": "amber"
+  },
+  {
+    "name": "Rust lifetimes",
+    "scope": ["entity.name.type.lifetime.rust", "punctuation.definition.lifetime.rust"],
+    "role": "violet"
+  },
+  {
+    "name": "Rust macros",
+    "scope": [
+      "entity.name.function.macro.rust",
+      "entity.name.function.macro.rules.rust",
+      "entity.name.type.macro.rust"
+    ],
+    "role": "violet"
+  },
+  {
+    "name": "Rust functions",
+    "scope": "entity.name.function.rust",
+    "role": "accent"
+  },
+  {
+    "name": "Rust constants",
+    "scope": "constant.other.caps.rust",
+    "role": "amber"
+  },
+  {
+    "name": "Rust self and super",
+    "scope": ["variable.language.self.rust", "variable.language.super.rust"],
+    "role": "foreground"
+  },
+  {
+    "name": "Rust metavariables",
+    "scope": [
+      "entity.name.type.metavariable.rust",
+      "variable.other.metavariable.name.rust",
+      "variable.other.metavariable.specifier.rust"
+    ],
+    "role": "foreground"
+  },
+  {
+    "name": "CSS element selectors",
+    "scope": ["entity.name.tag.css", "entity.name.tag.custom.css", "entity.name.tag.wildcard.css"],
+    "role": "subtle"
+  },
+  {
+    "name": "CSS class selectors",
+    "scope": "entity.other.attribute-name.class.css",
+    "role": "subtle"
+  },
+  {
+    "name": "CSS ID selectors",
+    "scope": "entity.other.attribute-name.id.css",
+    "role": "subtle"
+  },
+  {
+    "name": "CSS pseudo selectors",
+    "scope": [
+      "entity.other.attribute-name.pseudo-class.css",
+      "entity.other.attribute-name.pseudo-element.css"
+    ],
+    "role": "subtle"
+  },
+  {
+    "name": "CSS attribute selectors",
+    "scope": ["entity.other.attribute-name.css", "string.unquoted.attribute-value.css"],
+    "role": "subtle"
+  },
+  {
+    "name": "CSS property names",
+    "scope": [
+      "support.type.property-name.css",
+      "support.type.vendored.property-name.css",
+      "support.type.property-name.media.css",
+      "support.type.vendored.property-name.media.css"
+    ],
+    "role": "subtle"
+  },
+  {
+    "name": "CSS custom properties and variables",
+    "scope": ["variable.css", "variable.argument.css", "variable.font-feature.css"],
+    "role": "subtle"
+  },
+  {
+    "name": "CSS functions",
+    "scope": [
+      "support.function.calc.css",
+      "support.function.document-rule.css",
+      "support.function.gradient.css",
+      "support.function.misc.css",
+      "support.function.shape.css",
+      "support.function.timing-function.css",
+      "support.function.transform.css",
+      "support.function.url.css"
+    ],
+    "role": "accent"
+  },
+  {
+    "name": "CSS keyword values",
+    "scope": [
+      "support.constant.property-value.css",
+      "support.constant.vendored.property-value.css",
+      "support.constant.property-value.list-style-type.css",
+      "support.constant.font-name.css",
+      "support.constant.media.css",
+      "support.constant.parity.css",
+      "support.constant.step-direction.css",
+      "support.constant.text-direction.css"
+    ],
+    "role": "keyword"
+  },
+  {
+    "name": "CSS color literals",
+    "scope": [
+      "constant.other.color.rgb-value.hex.css",
+      "support.constant.color.current.css",
+      "support.constant.color.w3c-standard-color-name.css",
+      "support.constant.color.w3c-extended-color-name.css"
+    ],
+    "role": "amber"
+  },
+  {
+    "name": "CSS strings",
+    "scope": ["string.quoted.double.css", "string.quoted.single.css"],
+    "role": "string"
+  },
+  {
+    "name": "CSS numbers and units",
+    "scope": [
+      "constant.numeric.css",
+      "constant.numeric.other.density.css",
+      "keyword.other.unit.percentage.css",
+      "keyword.other.unit.${2:/downcase}.css",
+      "entity.other.keyframe-offset.css",
+      "entity.other.keyframe-offset.percentage.css"
+    ],
+    "role": "amber"
+  },
+  {
+    "name": "CSS at-rules",
+    "scope": [
+      "keyword.control.at-rule.css",
+      "keyword.control.at-rule.charset.css",
+      "keyword.control.at-rule.counter-style.css",
+      "keyword.control.at-rule.document.css",
+      "keyword.control.at-rule.font-face.css",
+      "keyword.control.at-rule.font-feature-values.css",
+      "keyword.control.at-rule.import.css",
+      "keyword.control.at-rule.keyframes.css",
+      "keyword.control.at-rule.media.css",
+      "keyword.control.at-rule.namespace.css",
+      "keyword.control.at-rule.page.css",
+      "keyword.control.at-rule.supports.css",
+      "keyword.control.at-rule.viewport.css"
+    ],
+    "role": "keyword"
+  },
+  {
+    "name": "CSS operators and important",
+    "scope": [
+      "keyword.operator.arithmetic.css",
+      "keyword.operator.combinator.css",
+      "keyword.operator.comparison.css",
+      "keyword.operator.gradient.css",
+      "keyword.operator.pattern.css",
+      "keyword.operator.shape.css",
+      "keyword.other.important.css"
+    ],
+    "role": "subtle"
+  },
+  {
+    "name": "CSS punctuation",
+    "scope": [
+      "punctuation.section.begin.bracket.curly.css",
+      "punctuation.section.end.bracket.curly.css",
+      "punctuation.section.property-list.begin.bracket.curly.css",
+      "punctuation.section.property-list.end.bracket.curly.css",
+      "punctuation.section.function.begin.bracket.round.css",
+      "punctuation.section.function.end.bracket.round.css",
+      "punctuation.separator.css",
+      "punctuation.separator.key-value.css",
+      "punctuation.separator.list.comma.css",
+      "punctuation.terminator.rule.css"
+    ],
+    "role": "subtle"
+  },
+  {
+    "name": "CSS escapes",
+    "scope": [
+      "constant.character.escape.codepoint.css",
+      "constant.character.escape.css",
+      "constant.character.escape.newline.css"
+    ],
+    "role": "violet"
+  },
+  {
+    "name": "Built-in primitive and basic types",
+    "scope": [
+      "storage.type.primitive",
+      "storage.type.built-in",
+      "storage.type.basic",
+      "storage.type.structure"
+    ],
+    "role": "amber"
+  },
+  {
+    "name": "Type keywords",
+    "scope": ["keyword.other.type"],
+    "role": "keyword"
+  },
+  {
+    "name": "Instance and struct members",
+    "scope": [
+      "variable.other.member",
+      "variable.other.readwrite.instance",
+      "variable.other.readwrite.class"
+    ],
+    "role": "success"
+  },
+  {
+    "name": "Namespace and module prefixes",
+    "scope": [
+      "entity.name.type.namespace",
+      "entity.name.namespace-prefix",
+      "entity.name.tag.namespace",
+      "entity.other.attribute-name.namespace",
+      "variable.language.namespace",
+      "variable.language.expanded-namespace"
+    ],
+    "role": "muted"
+  },
+  {
+    "name": "Section names",
+    "scope": ["entity.name.section"],
+    "role": "muted"
+  },
+  {
+    "name": "Named constant declarations",
+    "scope": ["entity.name.constant"],
+    "role": "amber"
+  },
+  {
+    "name": "Symbols and atoms",
+    "scope": ["constant.other.symbol", "constant.language.symbol"],
+    "role": "amber"
+  },
+  {
+    "name": "Symbol hash keys",
+    "scope": ["constant.language.symbol.hashkey", "constant.other.symbol.hashkey"],
+    "role": "subtle"
+  },
+  {
+    "name": "Type aliases",
+    "scope": ["entity.name.type.alias", "entity.name.type.typealias"],
+    "role": "violet"
+  },
+  {
+    "name": "Built-in and semantic variables",
+    "scope": ["support.variable"],
+    "role": "foreground"
+  },
+  {
+    "name": "Shader property names",
+    "scope": ["support.type.propertyname"],
+    "role": "subtle"
+  },
+  {
+    "name": "Ruby special methods",
+    "scope": ["keyword.other.special-method.ruby"],
+    "role": "accent"
+  },
+  {
+    "name": "Julia macros",
+    "scope": ["support.function.macro.julia"],
+    "role": "violet"
+  },
+  {
+    "name": "F# attributes",
+    "scope": ["support.function.attribute.fsharp"],
+    "role": "violet"
+  },
+  {
+    "name": "SCSS map keys",
+    "scope": ["support.type.map.key.scss"],
+    "role": "subtle"
+  },
+  {
+    "name": "SCSS and Less variables",
+    "scope": ["variable.scss", "variable.other.readwrite.scss", "variable.other.readwrite.less"],
+    "role": "foreground"
+  },
+  {
+    "name": "INI keys",
+    "scope": ["keyword.other.definition.ini", "entity.name.tag.ini"],
+    "role": "subtle"
+  },
+  {
+    "name": "Invalid and deprecated",
+    "scope": ["invalid", "invalid.illegal", "invalid.deprecated"],
+    "role": "error"
+  },
+  {
+    "name": "Markdown headings",
+    "scope": [
+      "markup.heading",
+      "entity.name.section.markdown",
+      "punctuation.definition.heading.markdown"
+    ],
+    "role": "keyword",
+    "fontStyle": "bold"
+  },
+  {
+    "name": "Markdown bold",
+    "scope": ["markup.bold", "strong"],
+    "role": "foreground",
+    "fontStyle": "bold"
+  },
+  {
+    "name": "Markdown emphasis without italics",
+    "scope": ["markup.italic", "emphasis"],
+    "role": "keyword"
+  },
+  {
+    "name": "Markdown links",
+    "scope": ["markup.underline.link", "string.other.link", "meta.link.inline.markdown"],
+    "role": "accent",
+    "fontStyle": "underline"
+  },
+  {
+    "name": "Markdown inline code",
+    "scope": ["markup.inline.raw", "markup.fenced_code.block"],
+    "role": "string"
+  },
+  {
+    "name": "Markdown quotes and list punctuation",
+    "scope": [
+      "punctuation.definition.quote.begin.markdown",
+      "punctuation.definition.list.begin.markdown"
+    ],
+    "role": "subtle"
+  },
+  {
+    "name": "Inserted text",
+    "scope": "markup.inserted",
+    "role": "success"
+  },
+  {
+    "name": "Deleted text",
+    "scope": "markup.deleted",
+    "role": "error"
+  },
+  {
+    "name": "Changed text",
+    "scope": "markup.changed",
+    "role": "foreground"
+  },
+  {
+    "name": "Git rebase",
+    "scope": ["support.function.git-rebase", "constant.sha.git-rebase"],
+    "role": "accent"
+  },
+  {
+    "name": "Tag punctuation",
+    "scope": "punctuation.definition.tag",
+    "role": "subtle"
+  },
+  {
+    "name": "General punctuation",
+    "scope": ["punctuation.definition", "punctuation.terminator", "meta.brace", "meta.delimiter"],
+    "role": "subtle"
+  }
+]

@@ -1,0 +1,28 @@
+name: Readability or color issue
+description: Report a concrete rendering or contrast problem.
+body:
+  - type: dropdown
+    id: theme
+    attributes:
+      label: Theme
+      options: [Tide Dark, Tide Light, Both]
+    validations:
+      required: true
+  - type: input
+    id: editor
+    attributes:
+      label: Editor and version
+      placeholder: VS Code 1.137.0, macOS
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Language, extensions, and relevant settings
+      description: Include semantic highlighting, font size, and color customizations.
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Sample, expected appearance, and screenshot
+    validations:
+      required: true

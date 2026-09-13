@@ -1,0 +1,23 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Preview Tide Dark",
+      "type": "extensionHost",
+      "request": "launch",
+      "args": [
+        "--extensionDevelopmentPath=${workspaceFolder}",
+        "${workspaceFolder}/showcase/tide-dark.code-workspace"
+      ]
+    },
+    {
+      "name": "Preview Tide Light",
+      "type": "extensionHost",
+      "request": "launch",
+      "args": [
+        "--extensionDevelopmentPath=${workspaceFolder}",
+        "${workspaceFolder}/showcase/tide-light.code-workspace"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "station": "North Cove",
+  "coordinates": { "latitude": 48.42, "longitude": -123.37 },
+  "active": true,
+  "nextReading": null,
+  "heights": [1.25, 1.72, 2.04]
+}

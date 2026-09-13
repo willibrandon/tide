@@ -1,0 +1,42 @@
+{
+  "typescript": {
+    "scope": "source.ts",
+    "source": "extensions/typescript-basics/syntaxes/TypeScript.tmLanguage.json",
+    "commit": "645f29cc3176500b4b5762ba887cf2a7f0ffdf2c"
+  },
+  "tsx": {
+    "scope": "source.tsx",
+    "source": "extensions/typescript-basics/syntaxes/TypeScriptReact.tmLanguage.json",
+    "commit": "645f29cc3176500b4b5762ba887cf2a7f0ffdf2c"
+  },
+  "python": {
+    "scope": "source.python",
+    "source": "extensions/python/syntaxes/MagicPython.tmLanguage.json",
+    "commit": "645f29cc3176500b4b5762ba887cf2a7f0ffdf2c"
+  },
+  "rust": {
+    "scope": "source.rust",
+    "source": "extensions/rust/syntaxes/rust.tmLanguage.json",
+    "commit": "645f29cc3176500b4b5762ba887cf2a7f0ffdf2c"
+  },
+  "go": {
+    "scope": "source.go",
+    "source": "extensions/go/syntaxes/go.tmLanguage.json",
+    "commit": "645f29cc3176500b4b5762ba887cf2a7f0ffdf2c"
+  },
+  "csharp": {
+    "scope": "source.cs",
+    "source": "extensions/csharp/syntaxes/csharp.tmLanguage.json",
+    "commit": "645f29cc3176500b4b5762ba887cf2a7f0ffdf2c"
+  },
+  "css": {
+    "scope": "source.css",
+    "source": "extensions/css/syntaxes/css.tmLanguage.json",
+    "commit": "645f29cc3176500b4b5762ba887cf2a7f0ffdf2c"
+  },
+  "json": {
+    "scope": "source.json",
+    "source": "extensions/json/syntaxes/JSON.tmLanguage.json",
+    "commit": "645f29cc3176500b4b5762ba887cf2a7f0ffdf2c"
+  }
+}

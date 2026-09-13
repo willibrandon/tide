@@ -1,0 +1,24 @@
+/* Surface steps establish hierarchy without loud borders. */
+:root {
+  --canvas: #0b1418;
+  --ink: #dce8ec;
+  --sea-glass: #56d4c5;
+  color-scheme: dark light;
+}
+
+.station {
+  display: grid;
+  gap: 1.25rem;
+  padding: clamp(1rem, 4vw, 3rem);
+  color: var(--ink);
+  background: var(--canvas);
+  border-inline-start: 2px solid var(--sea-glass);
+}
+
+.station::before {
+  content: "North Cove";
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .station { transition: opacity 120ms ease-out; }
+}

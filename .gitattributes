@@ -1,0 +1,4 @@
+* text=auto eol=lf
+*.png binary
+themes/*.json linguist-generated=true
+reference/** linguist-vendored=true

@@ -1,0 +1,10 @@
+[
+  { "language": "typescript", "file": "tide.ts", "checks": [{"needle":"export", "role":"keyword"},{"needle":"TideStation", "role":"amber"},{"needle":"summarize", "role":"accent"},{"needle":"North Cove", "role":"string"}] },
+  { "language": "python", "file": "tide.py", "checks": [{"needle":"class Reading", "role":"keyword"},{"needle":"Reading", "role":"amber"},{"needle":"summarize", "role":"accent"},{"needle":"North Cove", "role":"string"}] },
+  { "language": "rust", "file": "tide.rs", "checks": [{"needle":"struct", "role":"keyword"},{"needle":"summarize", "role":"accent"},{"needle":"North Cove", "role":"string"}] },
+  { "language": "go", "file": "tide.go", "checks": [{"needle":"func", "role":"keyword"},{"needle":"Summarize", "role":"accent"},{"needle":"North Cove", "role":"string"}] },
+  { "language": "csharp", "file": "Tide.cs", "checks": [{"needle":"namespace", "role":"keyword"},{"needle":"Reading", "role":"amber"},{"needle":"Summarize", "role":"accent"},{"needle":"North Cove", "role":"string"}] },
+  { "language": "css", "file": "tide.css", "checks": [{"needle":"content", "role":"subtle"},{"needle":"North Cove", "role":"string"}] },
+  { "language": "json", "file": "tide.json", "checks": [{"needle":"station", "role":"subtle"},{"needle":"North Cove", "role":"string"},{"needle":"48.42", "role":"amber"}] },
+  { "language": "tsx", "file": "tide.tsx", "checks": [{"needle":"StationCard", "role":"accent"},{"needle":"Tide reading", "role":"string"}] }
+]

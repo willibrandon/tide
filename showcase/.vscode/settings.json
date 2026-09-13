@@ -1,0 +1,18 @@
+{
+  "workbench.colorTheme": "tide-dark",
+  "workbench.startupEditor": "none",
+  "window.title": "Tide · ${activeEditorShort}",
+  "editor.semanticHighlighting.enabled": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.renderWhitespace": "selection",
+  "editor.stickyScroll.enabled": true,
+  "editor.minimap.enabled": true,
+  "editor.fontSize": 15,
+  "editor.lineHeight": 24,
+  "editor.fontLigatures": false,
+  "editor.rulers": [],
+  "diffEditor.wordWrap": "on",
+  "typescript.suggest.enabled": true,
+  "files.exclude": { "grammar-cases.json": true, "tsconfig.json": true, "semantic.tide": true, ".vscode": true }
+}

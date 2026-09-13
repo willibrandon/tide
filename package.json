@@ -1,0 +1,82 @@
+{
+  "name": "tide-theme",
+  "displayName": "Tide",
+  "description": "Sea-glass teal, warm amber, and quiet blue-slate. Carefully paired dark and light themes for focused work.",
+  "version": "0.1.0",
+  "publisher": "willibrandon",
+  "author": {
+    "name": "Brandon Williams"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/willibrandon/tide.git"
+  },
+  "homepage": "https://github.com/willibrandon/tide#readme",
+  "bugs": {
+    "url": "https://github.com/willibrandon/tide/issues"
+  },
+  "icon": "assets/icon.png",
+  "engines": {
+    "vscode": "^1.137.0",
+    "node": ">=24 <25"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "teal",
+    "amber",
+    "dark",
+    "light",
+    "non-italic",
+    "semantic highlighting",
+    "accessible"
+  ],
+  "extensionKind": [
+    "ui"
+  ],
+  "galleryBanner": {
+    "color": "#0B1418",
+    "theme": "dark"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "id": "tide-dark",
+        "label": "Tide Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/tide-dark.json"
+      },
+      {
+        "id": "tide-light",
+        "label": "Tide Light",
+        "uiTheme": "vs",
+        "path": "./themes/tide-light.json"
+      }
+    ]
+  },
+  "scripts": {
+    "format": "prettier --write .",
+    "check:format": "prettier --check .",
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/check.mjs && node --test",
+    "test": "node --test",
+    "check:contrast": "node scripts/audit.mjs",
+    "check:grammar": "node scripts/grammar.mjs",
+    "check:release": "node scripts/release.mjs",
+    "package": "npm run check && node scripts/package.mjs",
+    "preview": "node scripts/preview.mjs",
+    "capture": "node scripts/capture.mjs",
+    "reference:update": "node scripts/snapshot-vscode.mjs"
+  },
+  "devDependencies": {
+    "@vscode/test-web": "0.0.81",
+    "@vscode/vsce": "3.9.2",
+    "playwright": "1.63.0",
+    "prettier": "3.9.6",
+    "typescript": "5.9.3",
+    "vscode-oniguruma": "2.0.1",
+    "vscode-textmate": "9.3.2"
+  }
+}

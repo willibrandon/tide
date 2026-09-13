@@ -1,0 +1,59 @@
+{
+  "name": "tide-preview-helper",
+  "publisher": "local",
+  "version": "0.0.0",
+  "engines": {
+    "vscode": "^1.137.0"
+  },
+  "browser": "./extension.cjs",
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "tide-preview",
+        "extensions": [
+          ".tide"
+        ],
+        "aliases": [
+          "Tide semantic fixture"
+        ]
+      }
+    ],
+    "commands": [
+      {
+        "command": "tide.preview.inlineDiff",
+        "title": "Tide Preview: Inline Diff"
+      },
+      {
+        "command": "tide.preview.dark",
+        "title": "Tide Preview: Dark"
+      },
+      {
+        "command": "tide.preview.light",
+        "title": "Tide Preview: Light"
+      },
+      {
+        "command": "tide.preview.diff",
+        "title": "Tide Preview: Diff"
+      },
+      {
+        "command": "tide.preview.semanticOff",
+        "title": "Tide Preview: Semantic Off"
+      },
+      {
+        "command": "tide.preview.semanticOn",
+        "title": "Tide Preview: Semantic On"
+      },
+      {
+        "command": "tide.preview.semanticFixture",
+        "title": "Tide Preview: Semantic Fixture"
+      },
+      {
+        "command": "tide.preview.diagnostics",
+        "title": "Tide Preview: Diagnostics"
+      }
+    ]
+  }
+}

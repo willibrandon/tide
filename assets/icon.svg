@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-label="Tide: sea-glass waves beneath an amber sun">
+  <rect width="256" height="256" rx="56" fill="#0B1418"/>
+  <rect x="12" y="12" width="232" height="232" rx="46" fill="none" stroke="#253A43" stroke-width="2"/>
+  <circle cx="180" cy="77" r="17" fill="#EBB56E"/>
+  <path d="M46 130c29-36 53-36 82 0s53 36 82 0" fill="none" stroke="#56D4C5" stroke-width="13" stroke-linecap="round"/>
+  <path d="M46 170c29-36 53-36 82 0s53 36 82 0" fill="none" stroke="#8DA5AD" stroke-width="9" stroke-linecap="round"/>
+</svg>
