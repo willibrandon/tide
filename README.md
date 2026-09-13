@@ -59,7 +59,7 @@ diff backgrounds.
 
 ## Install
 
-Install **Tide** by **willibrandon** from the
+Install **Tide — Teal & Amber** by **willibrandon** from the
 [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=willibrandon.tide-theme)
 or [Open VSX](https://open-vsx.org/extension/willibrandon/tide-theme).
 
