@@ -71,8 +71,7 @@ Alternatively, use **Extensions → … → Install from VSIX** and select that 
 Then open **Preferences: Color Theme** (`⌘K ⌘T` on macOS, `Ctrl+K Ctrl+T`
 on Windows/Linux) and choose **Tide Dark** or **Tide Light**.
 
-Requires **VS Code 1.137.0 or newer**, or a compatible editor. Marketplace
-publication is a separate release step; building locally does not publish.
+Requires **VS Code 1.137.0 or newer**, or a compatible editor.
 
 ## Accessibility
 
