@@ -9,7 +9,7 @@
 Sea-glass teal. Warm amber. Quiet blue-slate.
 Two carefully paired themes for Visual Studio Code.
 
-[Design](#design) · [Install](#install) · [Accessibility](#accessibility) · [Develop](#develop)
+[Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=willibrandon.tide-theme) · [Open VSX](https://open-vsx.org/extension/willibrandon/tide-theme)
 
 <img src="assets/tide-dark.png" width="1100" alt="Tide Dark running in VS Code, showing neutral blue-slate chrome, teal methods, and amber types" />
 
@@ -59,17 +59,20 @@ diff backgrounds.
 
 ## Install
 
-Build an installable extension from this repository:
+Install **Tide** by **willibrandon** from the
+[Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=willibrandon.tide-theme)
+or [Open VSX](https://open-vsx.org/extension/willibrandon/tide-theme).
 
 ```sh
-npm ci
-npm run package
-code --install-extension dist/tide-theme-0.1.0.vsix
+code --install-extension willibrandon.tide-theme
 ```
 
-Alternatively, use **Extensions → … → Install from VSIX** and select that file.
-Then open **Preferences: Color Theme** (`⌘K ⌘T` on macOS, `Ctrl+K Ctrl+T`
+Open **Preferences: Color Theme** (`⌘K ⌘T` on macOS, `Ctrl+K Ctrl+T`
 on Windows/Linux) and choose **Tide Dark** or **Tide Light**.
+
+For manual installation, download the VSIX from
+[GitHub Releases](https://github.com/willibrandon/tide/releases) and use
+**Extensions → … → Install from VSIX**.
 
 Requires **VS Code 1.137.0 or newer**, or a compatible editor.
 
@@ -97,6 +100,7 @@ grammars are pinned for reproducible development.
 npm ci
 npm run build          # generate both themes from shared roles
 npm run check          # drift, registry, contrast, grammar, and regression tests
+npm run package        # build dist/tide-theme-0.1.0.vsix
 npm run preview        # real VS Code in a browser at http://localhost:4173
 ```
 

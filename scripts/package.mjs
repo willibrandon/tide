@@ -30,10 +30,15 @@ for (const required of [
   'themes/tide-light.json',
 ])
   if (!files.includes(required)) throw new Error(`Missing packaged file: ${required}`);
-execFileSync(process.execPath, [cli, 'package', '--no-dependencies', '--out', output], {
-  cwd: root,
-  stdio: 'inherit',
-});
+const contentRef = process.env.GITHUB_REF_TYPE === 'tag' ? process.env.GITHUB_REF_NAME : 'main';
+execFileSync(
+  process.execPath,
+  [cli, 'package', '--no-dependencies', '--githubBranch', contentRef, '--out', output],
+  {
+    cwd: root,
+    stdio: 'inherit',
+  },
+);
 const digest = createHash('sha256')
   .update(readFileSync(resolve(root, output)))
   .digest('hex');

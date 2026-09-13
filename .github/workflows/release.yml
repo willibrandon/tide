@@ -13,6 +13,8 @@ concurrency:
 jobs:
   package:
     runs-on: ubuntu-24.04
+    outputs:
+      vsix: ${{ steps.artifact.outputs.vsix }}
     permissions:
       contents: write
     steps:
@@ -24,7 +26,12 @@ jobs:
       - run: npm ci
       - run: npm run check:release
       - run: npm run check:format
+      - run: npx tsc --project showcase/tsconfig.json
       - run: npm run package
+      - name: Resolve release artifact
+        id: artifact
+        run: |
+          node -e 'const {name, version} = require("./package.json"); console.log(`vsix=${name}-${version}.vsix`)' >> "$GITHUB_OUTPUT"
       - uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
         with:
           name: tide-release
@@ -34,6 +41,7 @@ jobs:
           if-no-files-found: error
       - uses: softprops/action-gh-release@efb35369e0ad2afab669f228072c1b0d510eae64 # v3.0.3
         with:
+          name: Tide ${{ github.ref_name }}
           files: |
             dist/*.vsix
             dist/*.sha256
@@ -43,6 +51,8 @@ jobs:
   marketplace:
     needs: package
     runs-on: ubuntu-24.04
+    env:
+      VSIX: ${{ needs.package.outputs.vsix }}
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
       - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
@@ -55,46 +65,36 @@ jobs:
           GH_TOKEN: ${{ github.token }}
           GH_REPO: ${{ github.repository }}
           RELEASE_TAG: ${{ github.ref_name }}
-        run: gh release download "$RELEASE_TAG" --pattern '*.vsix' --pattern '*.sha256' --dir dist
+        run: gh release download "$RELEASE_TAG" --pattern "$VSIX" --pattern "$VSIX.sha256" --dir dist
       - name: Verify checksum
-        run: cd dist && sha256sum --check *.sha256
+        working-directory: dist
+        run: sha256sum --check "$VSIX.sha256"
       - name: Publish Marketplace
         env:
           VSCE_PAT: ${{ secrets.VSCE_PAT }}
         run: |
-          if [ -n "$VSCE_PAT" ]; then
-            npx vsce publish --packagePath dist/*.vsix --skip-duplicate
-          else
-            echo "Marketplace skipped: VSCE_PAT is not configured." >> "$GITHUB_STEP_SUMMARY"
-          fi
+          test -n "$VSCE_PAT" || { echo "::error::VSCE_PAT is not configured"; exit 1; }
+          npx vsce publish --packagePath "dist/$VSIX" --skip-duplicate
 
   open-vsx:
     needs: package
     runs-on: ubuntu-24.04
+    env:
+      VSIX: ${{ needs.package.outputs.vsix }}
     steps:
       - name: Download verified release artifact
         env:
           GH_TOKEN: ${{ github.token }}
           GH_REPO: ${{ github.repository }}
           RELEASE_TAG: ${{ github.ref_name }}
-        run: gh release download "$RELEASE_TAG" --pattern '*.vsix' --pattern '*.sha256' --dir dist
+        run: gh release download "$RELEASE_TAG" --pattern "$VSIX" --pattern "$VSIX.sha256" --dir dist
       - name: Verify checksum
-        run: cd dist && sha256sum --check *.sha256
-      - name: Resolve Open VSX publication
-        id: publication
-        env:
-          OVSX_PAT: ${{ secrets.OVSX_PAT }}
-        run: |
-          if [ -n "$OVSX_PAT" ]; then
-            echo "enabled=true" >> "$GITHUB_OUTPUT"
-            echo "path=$(find dist -name '*.vsix' -print -quit)" >> "$GITHUB_OUTPUT"
-          else
-            echo "Open VSX skipped: OVSX_PAT is not configured." >> "$GITHUB_STEP_SUMMARY"
-          fi
+        working-directory: dist
+        run: sha256sum --check "$VSIX.sha256"
       - name: Publish Open VSX
-        if: steps.publication.outputs.enabled == 'true'
         uses: HaaLeo/publish-vscode-extension@ca5561daa085dee804bf9f37fe0165785a9b14db # v2.0.0
         with:
           pat: ${{ secrets.OVSX_PAT }}
-          extensionFile: ${{ steps.publication.outputs.path }}
+          extensionFile: dist/${{ needs.package.outputs.vsix }}
           registryUrl: https://open-vsx.org
+          skipDuplicate: true

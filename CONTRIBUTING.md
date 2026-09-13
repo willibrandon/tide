@@ -67,14 +67,27 @@ classify new keys, refresh captures, and run the entire check/package flow.
 
 ## Release
 
-1. Use `npm version <version> --no-git-tag-version` to update both manifests.
-2. Update `CHANGELOG.md`; build, check, capture, and package.
-3. Commit and tag `v<version>` on the intended release commit.
-4. The release workflow verifies the tag, packages once, attaches the VSIX and
-   SHA-256 checksum to the GitHub release, and publishes the same artifact to
-   configured registries.
+The extension ID is **`willibrandon.tide-theme`** in both the
+[Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=willibrandon.tide-theme)
+and [Open VSX](https://open-vsx.org/extension/willibrandon/tide-theme).
 
-Publishing requires the `willibrandon` publisher/namespace and repository
-secrets `VSCE_PAT` and/or `OVSX_PAT`. Each registry publish is independent.
-When a credential is absent the workflow explicitly reports that registry as
-skipped. The extension remains available as the release's VSIX artifact.
+1. For subsequent releases, use `npm version <version> --no-git-tag-version`
+   to update both manifests. The first release is already set to `0.1.0`.
+2. Update `CHANGELOG.md`; build, check, and package. Refresh captures for visual changes.
+3. Commit and push to `main`, then wait for CI to pass.
+4. Push an annotated version tag. For the first release:
+
+   ```sh
+   git tag -a v0.1.0 -m "Tide v0.1.0"
+   git push origin v0.1.0
+   ```
+
+The tag triggers the release workflow: validate the version and publisher,
+package once, attach the VSIX and SHA-256 checksum to the GitHub release, then
+publish that same artifact to both registries. Packaged README links use the
+release tag so each version keeps its matching documentation and screenshots.
+
+Repository secrets **`VSCE_PAT`** and **`OVSX_PAT`** authenticate the two publish
+jobs. Missing or invalid credentials fail publication. If a publish job fails,
+fix the credential or registry issue and rerun the failed job; duplicate
+versions are skipped by both publishers.

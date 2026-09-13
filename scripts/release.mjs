@@ -1,6 +1,8 @@
 import { readJson } from './lib/project.mjs';
 
 export function validateRelease(manifest, lock, tag) {
+  if (manifest.publisher !== 'willibrandon' || manifest.name !== 'tide-theme')
+    throw new Error('Release identity must be willibrandon.tide-theme');
   if (manifest.version !== lock.version || manifest.version !== lock.packages[''].version)
     throw new Error('Manifest/lockfile version mismatch');
   if (tag !== `v${manifest.version}`)
