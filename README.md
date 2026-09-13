@@ -90,7 +90,7 @@ for coverage, exceptions, and how to reproduce the results.
 
 ## Develop
 
-Use **Node.js 24**. The Node version, dependencies, VS Code release, and test
+Use **Node.js 24.11+ (24.x)**. The Node version, dependencies, VS Code release, and test
 grammars are pinned for reproducible development.
 
 ```sh
