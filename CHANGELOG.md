@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.1.1 — 2026-09-15
+
+- Give inserted and removed diff overview markers distinct, accessible colors in
+  both theme variants.
+- Remove unsupported and deprecated workbench colors, and reject deprecated
+  registrations during validation.
+- Keep preview runtime data outside the workspace and use a more distinctive
+  Marketplace listing title.
+
 ## 0.1.0 — 2026-09-13
 
 - Introduce Tide Dark and Tide Light: teal actions, amber types, periwinkle
