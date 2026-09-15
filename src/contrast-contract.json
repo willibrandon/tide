@@ -1039,12 +1039,6 @@
       "kind": "text"
     },
     {
-      "foreground": "editorActiveLineNumber.foreground",
-      "backgrounds": ["editor.background"],
-      "minimum": 4.5,
-      "kind": "text"
-    },
-    {
       "foreground": "diffEditor.unchangedRegionForeground",
       "backgrounds": ["diffEditor.unchangedRegionBackground"],
       "minimum": 4.5,
@@ -3127,18 +3121,6 @@
       "kind": "indicator"
     },
     {
-      "foreground": "modernActivityBar.activeForeground",
-      "backgrounds": ["modernActivityBar.activeBackground"],
-      "minimum": 4.5,
-      "kind": "text"
-    },
-    {
-      "foreground": "modernActivityBar.hoverForeground",
-      "backgrounds": ["modernActivityBar.hoverBackground"],
-      "minimum": 4.5,
-      "kind": "text"
-    },
-    {
       "foreground": "modernActivityBarItem.activeForeground",
       "backgrounds": ["modernActivityBarItem.activeBackground"],
       "minimum": 4.5,
@@ -3173,30 +3155,6 @@
       "backgrounds": ["modernTab.hoverBackground"],
       "minimum": 4.5,
       "kind": "text"
-    },
-    {
-      "foreground": "agentsMobileDiff.addedForeground",
-      "backgrounds": ["editor.background"],
-      "minimum": 3,
-      "kind": "indicator"
-    },
-    {
-      "foreground": "agentsMobileDiff.deletedForeground",
-      "backgrounds": ["editor.background"],
-      "minimum": 3,
-      "kind": "indicator"
-    },
-    {
-      "foreground": "agentsMobileDiff.modifiedForeground",
-      "backgrounds": ["editor.background"],
-      "minimum": 3,
-      "kind": "indicator"
-    },
-    {
-      "foreground": "editorOverviewRuler.agentFeedbackForeground",
-      "backgrounds": ["editor.background"],
-      "minimum": 3,
-      "kind": "indicator"
     },
     {
       "foreground": "terminal.ansiRed",
@@ -3762,13 +3720,11 @@
     "editorBracketPairGuide.background5": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
     "editorBracketPairGuide.background6": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
     "editorHint.border": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
-    "editorIndentGuide.activeBackground": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
     "editorIndentGuide.activeBackground2": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
     "editorIndentGuide.activeBackground3": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
     "editorIndentGuide.activeBackground4": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
     "editorIndentGuide.activeBackground5": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
     "editorIndentGuide.activeBackground6": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
-    "editorIndentGuide.background": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
     "editorIndentGuide.background2": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
     "editorIndentGuide.background3": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
     "editorIndentGuide.background4": "Decorative separator, guide, shadow, or redundant state cue; not the sole means of conveying information.",
@@ -3874,7 +3830,6 @@
     "modernEditorTab.activeHoverBackground": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
     "modernEditorTab.hoverActionBackground": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
     "modernEditorTab.inactiveBackground": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
-    "modernEditorTab.selectedActionBackground": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled.",
-    "quickInput.list.focusBackground": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled."
+    "modernEditorTab.selectedActionBackground": "Supporting or decorative surface; foreground pairings are audited where explicitly modeled."
   }
 }

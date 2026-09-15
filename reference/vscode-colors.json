@@ -1201,7 +1201,8 @@
     "editorActiveLineNumber.foreground": {
       "source": "src/vs/editor/common/core/editorColorRegistry.ts",
       "description": "nls.localize('editorActiveLineNumber', 'Color of editor active line number')",
-      "requiresTransparency": false
+      "requiresTransparency": false,
+      "deprecationMessage": "nls.localize('deprecatedEditorActiveLineNumber', 'Id is deprecated. Use \\'editorLineNumber.activeForeground\\' instead.')"
     },
     "editorBracketHighlight.foreground1": {
       "source": "src/vs/editor/common/core/editorColorRegistry.ts",
@@ -1546,7 +1547,8 @@
     "editorIndentGuide.activeBackground": {
       "source": "src/vs/editor/common/core/editorColorRegistry.ts",
       "description": "nls.localize('editorActiveIndentGuide', 'Color of the active editor indentation guides.')",
-      "requiresTransparency": false
+      "requiresTransparency": false,
+      "deprecationMessage": "nls.localize('deprecatedEditorActiveIndentGuide', '\\'editorIndentGuide.activeBackground\\' is deprecated. Use \\'editorIndentGuide.activeBackground1\\' instead.')"
     },
     "editorIndentGuide.activeBackground1": {
       "source": "src/vs/editor/common/core/editorColorRegistry.ts",
@@ -1581,7 +1583,8 @@
     "editorIndentGuide.background": {
       "source": "src/vs/editor/common/core/editorColorRegistry.ts",
       "description": "nls.localize('editorIndentGuides', 'Color of the editor indentation guides.')",
-      "requiresTransparency": false
+      "requiresTransparency": false,
+      "deprecationMessage": "nls.localize('deprecatedEditorIndentGuides', '\\'editorIndentGuide.background\\' is deprecated. Use \\'editorIndentGuide.background1\\' instead.')"
     },
     "editorIndentGuide.background1": {
       "source": "src/vs/editor/common/core/editorColorRegistry.ts",
@@ -2851,12 +2854,14 @@
     "modernActivityBar.activeBackground": {
       "source": "src/vs/workbench/common/theme.ts",
       "description": "localize('modernActivityBarActiveBackground', \"Background color of active Activity bar items in the default side position when the modern UI is enabled.\")",
-      "requiresTransparency": false
+      "requiresTransparency": false,
+      "deprecationMessage": "localize('modernActivityBarActiveBackgroundDeprecated', \"'modernActivityBar.activeBackground' is deprecated. Use 'modernActivityBarItem.activeBackground' instead.\")"
     },
     "modernActivityBar.activeForeground": {
       "source": "src/vs/workbench/common/theme.ts",
       "description": "localize('modernActivityBarActiveForeground', \"Foreground color of active Activity bar items in the default side position when the modern UI is enabled.\")",
-      "requiresTransparency": false
+      "requiresTransparency": false,
+      "deprecationMessage": "localize('modernActivityBarActiveForegroundDeprecated', \"'modernActivityBar.activeForeground' is deprecated. Use 'modernActivityBarItem.activeForeground' instead.\")"
     },
     "modernActivityBar.background": {
       "source": "src/vs/workbench/common/theme.ts",
@@ -2871,12 +2876,14 @@
     "modernActivityBar.hoverBackground": {
       "source": "src/vs/workbench/common/theme.ts",
       "description": "localize('modernActivityBarHoverBackground', \"Background color of Activity bar items in the default side position when hovering and the modern UI is enabled.\")",
-      "requiresTransparency": false
+      "requiresTransparency": false,
+      "deprecationMessage": "localize('modernActivityBarHoverBackgroundDeprecated', \"'modernActivityBar.hoverBackground' is deprecated. Use 'modernActivityBarItem.hoverBackground' instead.\")"
     },
     "modernActivityBar.hoverForeground": {
       "source": "src/vs/workbench/common/theme.ts",
       "description": "localize('modernActivityBarHoverForeground', \"Foreground color of Activity bar items in the default side position when hovering and the modern UI is enabled.\")",
-      "requiresTransparency": false
+      "requiresTransparency": false,
+      "deprecationMessage": "localize('modernActivityBarHoverForegroundDeprecated', \"'modernActivityBar.hoverForeground' is deprecated. Use 'modernActivityBarItem.hoverForeground' instead.\")"
     },
     "modernActivityBar.inactiveBackground": {
       "source": "src/vs/workbench/common/theme.ts",
@@ -3406,7 +3413,8 @@
     "quickInput.list.focusBackground": {
       "source": "src/vs/platform/theme/common/colors/quickpickColors.ts",
       "description": "''",
-      "requiresTransparency": false
+      "requiresTransparency": false,
+      "deprecationMessage": "nls.localize('quickInput.list.focusBackground deprecation', \"Please use quickInputList.focusBackground instead\")"
     },
     "quickInputList.focusBackground": {
       "source": "src/vs/platform/theme/common/colors/quickpickColors.ts",

@@ -1,3 +1,4 @@
+import { tmpdir } from 'node:os';
 import { resolve } from 'node:path';
 import { open } from '@vscode/test-web';
 import { root, readJson } from './lib/project.mjs';
@@ -10,7 +11,7 @@ const server = await open({
   folderPath: resolve(root, 'showcase'),
   host: 'localhost',
   port: 4173,
-  testRunnerDataDir: resolve(root, '.vscode-test-web'),
+  testRunnerDataDir: resolve(tmpdir(), 'tide-vscode-test-web'),
 });
 console.log(
   'Tide preview: http://localhost:4173 — choose Tide Dark or Tide Light in the theme picker.',

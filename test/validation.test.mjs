@@ -8,12 +8,16 @@ import { resolveColor, palettes } from '../src/palettes.mjs';
 
 const registry = readJson('reference/vscode-colors.json');
 const contract = readJson('src/contrast-contract.json');
-test('unknown color keys and unaudited known keys are rejected', () => {
+test('unknown, deprecated, and unaudited color keys are rejected', () => {
   const theme = buildTheme('dark');
   theme.colors['editor.typoBackground'] = '#FFFFFF';
+  theme.colors['editorActiveLineNumber.foreground'] = '#FFFFFF';
   theme.colors.contrastBorder = '#FFFFFF';
   const errors = validateTheme(theme, registry, contract);
   assert.ok(errors.some((e) => e.includes('Unknown VS Code color: editor.typoBackground')));
+  assert.ok(
+    errors.some((e) => e.includes('Deprecated VS Code color: editorActiveLineNumber.foreground')),
+  );
   assert.ok(errors.some((e) => e.includes('Unclassified color: contrastBorder')));
 });
 test('semantic italics and one-sided selector loss are detected', () => {

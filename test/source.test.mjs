@@ -33,6 +33,7 @@ test('registry extraction handles TypeScript and literal registrations without c
     class Example { constructor(@service readonly value: string) {} }
     const color: string = registerColor('editor.example', null, localize('example', 'Example'), true);
     theme.registerColor(\`editor.template\`, {}, 'Template', false);
+    registerColor('editor.deprecated', {}, 'Deprecated', false, localize('deprecated', 'Use another color'));
     registerColor(dynamicKey, {}, 'Dynamic');
     registerColor(\`editor.\${suffix}\`, {}, 'Interpolated');
     unregisterColor('editor.notARegistration');
@@ -49,6 +50,12 @@ test('registry extraction handles TypeScript and literal registrations without c
       source: 'colors.ts',
       description: "'Template'",
       requiresTransparency: false,
+    },
+    'editor.deprecated': {
+      source: 'colors.ts',
+      description: "'Deprecated'",
+      requiresTransparency: false,
+      deprecationMessage: "localize('deprecated', 'Use another color')",
     },
   });
 });
