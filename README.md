@@ -84,7 +84,8 @@ highlights has the same text threshold as code on the main editor surface.
 
 Every configured workbench color is accounted for in the audit or has an
 explicit exclusion. Validation rejects unsupported color names, missing pairs,
-unclassified additions, semantic italics, and dark/light coverage drift.
+deprecated aliases, unclassified additions, semantic italics, and dark/light
+coverage drift.
 
 These checks establish the modeled contrast contract, not universal WCAG
 conformance for every extension, overlay combination, terminal application, or

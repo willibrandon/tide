@@ -29,7 +29,7 @@ export function extractColorRegistrations(source, path) {
           ? callee.property.name
           : undefined;
     if (name !== 'registerColor') return;
-    const [id, , description, transparency] = node.arguments;
+    const [id, , description, transparency, deprecation] = node.arguments;
     const key =
       id?.type === 'StringLiteral'
         ? id.value
@@ -41,6 +41,9 @@ export function extractColorRegistrations(source, path) {
       source: path,
       description: description ? source.slice(description.start, description.end) : '',
       requiresTransparency: transparency?.type === 'BooleanLiteral' && transparency.value === true,
+      ...(deprecation
+        ? { deprecationMessage: source.slice(deprecation.start, deprecation.end) }
+        : {}),
     };
   });
   return colors;

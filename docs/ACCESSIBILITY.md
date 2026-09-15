@@ -8,8 +8,9 @@
 - Foregrounds and transparent background stacks are composited before measuring.
 - Both variants share the same ordered TextMate scopes, semantic selectors,
   workbench keys, and explicit non-italic typography.
-- All emitted workbench keys must exist in the pinned VS Code registry snapshot.
-  Colors marked as requiring transparency must remain translucent.
+- All emitted workbench keys must exist in the pinned VS Code registry snapshot
+  and must not be deprecated. Colors marked as requiring transparency must
+  remain translucent.
 - Every emitted key must appear in `src/contrast-contract.json` as a measured
   foreground, a modeled background, or an exclusion with a reason. There is no
   naming-based exemption for newly added colors.

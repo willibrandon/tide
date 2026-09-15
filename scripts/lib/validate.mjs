@@ -23,7 +23,9 @@ export function validateTheme(theme, registry, contract) {
   )
     return [...errors, 'Invalid theme structure'];
   for (const [key, value] of Object.entries(theme.colors)) {
-    require(key in registry.colors, `Unknown VS Code color: ${key}`);
+    const registration = registry.colors[key];
+    require(registration !== undefined, `Unknown VS Code color: ${key}`);
+    require(!registration?.deprecationMessage, `Deprecated VS Code color: ${key}`);
     const parsed = color(value, key);
     if (parsed && registry.colors[key]?.requiresTransparency)
       require(parsed[3] < 1, `${key} must be translucent`);

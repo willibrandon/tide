@@ -1,4 +1,5 @@
 import { mkdirSync, writeFileSync, rmSync } from 'node:fs';
+import { tmpdir } from 'node:os';
 import { resolve } from 'node:path';
 import { open } from '@vscode/test-web';
 import { chromium } from 'playwright';
@@ -16,7 +17,7 @@ const server = await open({
   folderPath: resolve(root, 'showcase'),
   host: 'localhost',
   port,
-  testRunnerDataDir: resolve(root, '.vscode-test-web'),
+  testRunnerDataDir: resolve(tmpdir(), 'tide-vscode-test-web'),
 });
 let browser;
 let page;
