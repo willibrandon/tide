@@ -75,9 +75,9 @@
   "devDependencies": {
     "@babel/parser": "8.0.5",
     "@vscode/test-web": "0.0.81",
-    "@vscode/vsce": "3.9.2",
+    "@vscode/vsce": "4.0.0",
     "playwright": "1.63.0",
-    "prettier": "3.9.6",
+    "prettier": "3.9.7",
     "typescript": "7.0.2",
     "vscode-oniguruma": "2.0.1",
     "vscode-textmate": "9.3.2"
