@@ -73,7 +73,7 @@
     "reference:update": "node scripts/snapshot-vscode.mjs"
   },
   "devDependencies": {
-    "@babel/parser": "8.0.8",
+    "@babel/parser": "8.1.0",
     "@vscode/test-web": "0.0.81",
     "@vscode/vsce": "4.1.0",
     "playwright": "1.64.1",
